@@ -1,38 +1,128 @@
 <!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-    <title>Geek Women Japan</title>
-
-    <!-- Bootstrap -->
-    <!--
-    <link href="css/bootstrap.min.css" rel="stylesheet">
-  -->
-    <link href="css/carousel.css" rel="stylesheet">
-    <!-- Favicon -->
-    <link rel="icon" type="image/png" href="image/icon.png">
-
-    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
-    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-    <!--[if lt IE 9]>
-      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
-      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
-    <![endif]-->
-  </head>
-  <body>
-    <h1>Geek Women Japan</h1>
-    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-    <!-- Include all compiled plugins (below), or include individual files as needed -->
-    <script src="js/bootstrap.min.js"></script>
-    <h2>Welcome to Geek Women Japan</h2>
-    <p>GeekWomenJapanは女性エンジニアのカンファレンスを運営するグループです。</p>
-    <h2>直近のイベント</h2>
-    <!-- New Year Partyの話とか書きたい-->
-    <h2>Facebookページへいいね！お願いします</h2>
-    <!-- Facebookのページを埋め込む-->
-  </body>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <title>Geek Women Japan</title>
+  <link rel="icon" type="image/png" href="images/icon.png">
+  <link rel="stylesheet" href="css/reset.css">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <!-- for connect Facebook -->
+  <div id="fb-root"></div>
+  <script>(function(d, s, id) {
+    var js, fjs = d.getElementsByTagName(s)[0];
+    if (d.getElementById(id)) return;
+    js = d.createElement(s); js.id = id;
+    js.src = "//connect.facebook.net/ja_KS/sdk.js#xfbml=1&version=v2.5&appId=886926044758556";
+    fjs.parentNode.insertBefore(js, fjs);
+  }(document, 'script', 'facebook-jssdk'));</script>
+  <!-- end -->
+  <header class="header">
+    <h1 class="logo">
+      <a href="/">Geek Women Japan</a>
+    </h1>
+    <nav class="global-nav">
+      <ul>
+        <li class="nav-item active"><a href="#">HOME</a></li>
+        <li class="nav-item"><a href="#">ABOUT</a></li>
+        <li class="nav-item"><a href="#">CONDUCT</a></li>
+        <li class="nav-item"><a href="#">NEWS</a></li>
+      </ul>
+    </nav>
+  </header>
+  <div class="wrapper clearfix">
+    <main class="main">
+      <section class="hot-topic">
+        <a href="http://eventdots.jp/eventreport/577211" class="hot-topic clearfix">
+          <img class="image" src="./images/hot-topic.jpg" alt="イベント集合写真">
+          <div class="content">
+            <h3 class="title">Geek Women New Year's Party 2016</h3>
+            <p class="desc">Techな業界で働く女性なら誰でもOKなTech女性のための新年会です。普段関わりのない言語や分野の女性コミュニティがごちゃまぜになって、LTを聞きながらアルコールを片手にわいわい交流しました！</p>
+            <time class="date" datetime="2016-01-15">2016.1.15 FRI</time>
+          </div>
+        </a>
+      </section>
+      <section class="news">
+        <!-- 過去のイベント一覧と掲載情報-->
+        <h2 class="heading">NEWS</h2>
+        <ul class="scroll-list">
+          <li class="scroll-item">
+            <a href="#">
+              <time class="date" datetime="2016-01-31">2016.01.31 SUN</time>
+              <span class="category news">NEWS</span>
+              <span class="title">公式ホームページをリニューアルしました</span>
+            </a>
+          </li>
+          <li class="scroll-item">
+            <a href="http://eventdots.jp/eventreport/577211">
+              <time class="date" datetime="2016-01-15">2016.01.15 FRI</time>
+              <span class="category topic">TOPIC</span>
+              <span class="title">Geek Women New Year's Partyを開催しました</span>
+            </a>
+          </li>
+          <li class="scroll-item">
+            <a href="http://www.sejuku.net/blog/906">
+              <time class="date" datetime="2016-01-06">2016.01.06 WED</time>
+              <span class="category topic">TOPIC</span>
+              <span class="title">「侍エンジニア塾」さんの記事に紹介されました</span>
+            </a>
+          </li>
+          <li class="scroll-item">
+            <a href="https://twitter.com/geekwomenjapan">
+              <time class="date" datetime="2015-12-26">2015.12.26 SAT</time>
+              <span class="category topic">TOPIC</span>
+              <span class="title">公式Twitterアカウントを作成しました</span>
+            </a>
+          </li>
+          <li class="scroll-item">
+            <a href="https://www.facebook.com/geekWomenJapan/">
+              <time class="date" datetime="2015-12-26">2015.12.26 SAT</time>
+              <span class="category topic">TOPIC</span>
+              <span class="title">公式Facebookページを作成しました</span>
+            </a>
+          </li>
+          <li class="scroll-item">
+            <a href="http://www.adventar.org/calendars/875">
+              <time class="date" datetime="2015-12-01">2015.12.01 TUE</time>
+              <span class="category topic">TOPIC</span>
+              <span class="title">Geek Women Advent Calendarがスタートしました</span>
+            </a>
+          </li>
+          <li class="scroll-item">
+            <a href="#">
+              <time class="date" datetime="2015-10-12">2015.10.12 MON</time>
+              <span class="category news">NEWS</span>
+              <span class="title">Geek Women Japanが発足しました</span>
+            </a>
+          </li>
+        </ul>
+      </section>
+      <section class="social">
+        <!-- ページとハッシュタグの埋め込みしたい -->
+        <h2 class="heading">SNS</h2>
+        <div class="embed-twitter">
+          <a class="twitter-timeline"  href="https://twitter.com/hashtag/GeekWomenJapan" data-widget-id="693455146450161664">#GeekWomenJapan のツイート</a>
+          <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+        </div>
+        <div class="embed-facebook">
+          <!-- connect Facebook -->
+          <div class="fb-page" data-href="https://www.facebook.com/geekWomenJapan/" data-tabs="timeline" data-small-header="true" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true"><div class="fb-xfbml-parse-ignore"><blockquote cite="https://www.facebook.com/geekWomenJapan/"><a href="https://www.facebook.com/geekWomenJapan/">Geek Women Japan</a></blockquote></div></div>
+          <!-- end -->
+        </div>
+      </section>
+    </main>
+    <div class="sidemenu">
+      <!--しばらく不要-->
+    </div>
+  </div>
+  <footer class="footer">
+    <ul class="horizontal-list">
+      <li class="horizontal-item"><a href="#">ABOUT</a></li>
+      <li class="horizontal-item"><a href="#">CONDUCT</a></li>
+      <li class="horizontal-item"><a href="#">NEWS</a></li>
+    </ul>
+    <p class="copyright">Copyright ©　2015 Geek Women Japan</p>
+  </footer>
+</body>
 </html>
