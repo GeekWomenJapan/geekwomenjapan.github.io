@@ -256,3 +256,20 @@ a:link, a:visited, a:hover, a:active {
   text-align: center;
   letter-spacing: 1px;
 }
+/* about.html専用 */
+.aboutGeekWomenJapan {
+  text-align: center;
+  font-size: 2.5rem;
+  margin-bottom: 30px;
+}
+.aboutGeekWomenJapan a {
+  /* 今のところ何もなし*/
+}
+.aboutGeekWomenJapan a span {
+  font-weight: bold;
+}
+.descGeekWomen {
+  margin-top: 15px;
+}
+.descGeekWomen .abstract {
+}
