@@ -256,3 +256,15 @@ a:link, a:visited, a:hover, a:active {
   text-align: center;
   letter-spacing: 1px;
 }
+/* about.html専用 */
+.comunity-about {
+  text-align: center;
+  font-size: 2.5rem;
+  margin-bottom: 30px;
+}
+.comunity-about a {
+  /* 今のところ何もなし*/
+}
+.comunity-about a span {
+  font-weight: bold;
+}
