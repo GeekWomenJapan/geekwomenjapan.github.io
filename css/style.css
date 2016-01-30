@@ -149,6 +149,7 @@ a:link, a:visited, a:hover, a:active {
   overflow-y: auto;
   margin-bottom: 30px;
   list-style-type: none;
+  box-shadow: 0 6px 4px -4px rgba(0, 0, 0, 0.15);
 }
 .scroll-list .scroll-item a {
   display: block;
@@ -206,11 +207,15 @@ a:link, a:visited, a:hover, a:active {
 }
 .social .embed-twitter {
   display: inline-block;
+  vertical-align: top;
   margin-top: 15px;
+  box-shadow: 0 6px 4px -4px rgba(0, 0, 0, 0.15);
 }
 .social .embed-facebook {
   display: inline-block;
+  vertical-align: top;
   margin-top: 15px;
+  box-shadow: 0 6px 4px -4px rgba(0, 0, 0, 0.15);
 }
 .sidemenu {
   float: right;
