@@ -257,19 +257,14 @@ a:link, a:visited, a:hover, a:active {
   letter-spacing: 1px;
 }
 /* about.html専用 */
-.aboutGeekWomenJapan {
+.comunity-about {
   text-align: center;
   font-size: 2.5rem;
   margin-bottom: 30px;
 }
-.aboutGeekWomenJapan a {
+.comunity-about a {
   /* 今のところ何もなし*/
 }
-.aboutGeekWomenJapan a span {
+.comunity-about a span {
   font-weight: bold;
-}
-.descGeekWomen {
-  margin-top: 15px;
-}
-.descGeekWomen .abstract {
 }
