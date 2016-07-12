@@ -1,7 +1,7 @@
 .ulStyle {
-  list-style-type: disc;
+  list-style: disc;
 }
 
 .olStyle {
-  list-style-type: decimal;
+  list-style: decimal;
 }
