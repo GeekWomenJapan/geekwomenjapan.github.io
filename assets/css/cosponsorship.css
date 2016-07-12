@@ -1,7 +1,7 @@
-p>ul {
+.ulStyle {
   list-style-type: disc;
 }
 
-p>ol {
+.olStyle {
   list-style-type: decimal;
 }
