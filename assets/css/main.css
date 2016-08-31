@@ -1270,7 +1270,7 @@
 			}
 
 			table.default thead {
-				background: #f7c1c1;
+				background: #ff827d;
 				color: #fff;
 			}
 
@@ -1357,7 +1357,7 @@
 		input[type="reset"]:hover,
 		button:hover,
 		.button:hover {
-			background-color: #f7c1c1;
+			background-color: #ff827d;
 			color: #fff !important;
 		}
 
@@ -1384,7 +1384,7 @@
 			input[type="reset"].alt:hover,
 			button.alt:hover,
 			.button.alt:hover {
-				background-color: #f7c1c1;
+				background-color: #ff827d;
 				color: #fff !important;
 			}
 
@@ -1393,7 +1393,7 @@
 			input[type="reset"].alt:active,
 			button.alt:active,
 			.button.alt:active {
-				background-color: #f7c1c1;
+				background-color: #ff827d;
 			}
 
 /* List */
@@ -1847,11 +1847,11 @@
 			}
 
 				#nav a:hover {
-					background: #f7c1c1;
+					background: #ff827d;
 				}
 
 				#nav a:active {
-					background: #f7c1c1;
+					background: #ff827d;
 				}
 
 		/* Articles */
