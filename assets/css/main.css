@@ -1270,7 +1270,7 @@
 			}
 
 			table.default thead {
-				background: #f7c1c1;
+				background: #ff827d;
 				color: #fff;
 			}
 
@@ -1332,10 +1332,6 @@
 	input[type="reset"],
 	button,
 	.button {
-		background-image: url("images/bg.png"), -moz-linear-gradient(top, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.2));
-		background-image: url("images/bg.png"), -webkit-linear-gradient(top, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.2));
-		background-image: url("images/bg.png"), -ms-linear-gradient(top, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.2));
-		background-image: url("images/bg.png"), linear-gradient(top, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.2));
 		-moz-transition: background-color .2s ease-in-out;
 		-webkit-transition: background-color .2s ease-in-out;
 		-ms-transition: background-color .2s ease-in-out;
@@ -1361,7 +1357,7 @@
 		input[type="reset"]:hover,
 		button:hover,
 		.button:hover {
-			background-color: #f7c1c1;
+			background-color: #ff827d;
 			color: #fff !important;
 		}
 
@@ -1388,7 +1384,7 @@
 			input[type="reset"].alt:hover,
 			button.alt:hover,
 			.button.alt:hover {
-				background-color: #f7c1c1;
+				background-color: #ff827d;
 				color: #fff !important;
 			}
 
@@ -1397,7 +1393,7 @@
 			input[type="reset"].alt:active,
 			button.alt:active,
 			.button.alt:active {
-				background-color: #f7c1c1;
+				background-color: #ff827d;
 			}
 
 /* List */
@@ -1851,11 +1847,11 @@
 			}
 
 				#nav a:hover {
-					background: #f7c1c1;
+					background: #ff827d;
 				}
 
 				#nav a:active {
-					background: #f7c1c1;
+					background: #ff827d;
 				}
 
 		/* Articles */
