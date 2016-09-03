@@ -183,6 +183,28 @@ table.about-table td {
     width: 360px;
     padding-left: 20px;
 }
+.contact {
+    width: 100%;
+}
+.icon {
+    text-decoration: none;
+}
+.icon:before {
+    display: inline-block;
+    font-family: FontAwesome;
+    font-size: 1.25em;
+    text-decoration: none;
+    font-style: normal;
+    font-weight: normal;
+    line-height: 1;
+    color: #5dbda4;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.icon > .label {
+    display: none;
+}
 .footer {
     padding: 12px 0;
     font-size: 1.3rem;
