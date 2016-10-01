@@ -209,6 +209,36 @@ table.about-table td {
     padding: 12px 0;
     font-size: 1.3rem;
 }
+table.timetable-table {
+    font-size: 12px;
+    margin: 0 auto;
+    border-collapse: separate;
+    border-spacing: 0px 1px;
+    color: #999;
+    background-color: #ffffff;
+}
+
+table.timetable-table th {
+    padding: 12px;
+    vertical-align: middle;
+    text-align: center;
+    border-bottom: #999 1px solid;
+    color: #fff;
+}
+
+table.timetable-table td {
+    padding: 12px;
+    vertical-align: middle;
+    text-align: center;
+    border-bottom: #999 1px solid;
+    font-size: 11px;
+}
+
+table.timetable-table th.row {
+    width: 100px;
+    border-right: #999 1px solid;
+    background: #5dbda4;
+}
 @media (max-width: 1024px) {
     body {
         background-image: none;
