@@ -336,6 +336,9 @@ table.timetable-table th.row {
     .about-text {
         line-height: 1.8;
     }
+    .community-image {
+        width: 40%;
+    }
     .sponsor-img-L {
         width: 90%;
     }
