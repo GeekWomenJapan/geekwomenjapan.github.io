@@ -251,7 +251,7 @@ table.about-table td {
     font-size: 1.3rem;
 }
 table.timetable-table {
-    font-size: 12px;
+    font-size: 1.3rem;
     margin: 0 auto;
     border-collapse: separate;
     border-spacing: 0px 1px;
@@ -268,15 +268,15 @@ table.timetable-table th {
 }
 
 table.timetable-table td {
-    padding: 12px;
+    padding: 1.3rem;
     vertical-align: middle;
     text-align: center;
     border-bottom: #999 1px solid;
+    border-right: #999 1px solid;
     font-size: 11px;
 }
 
 table.timetable-table th.row {
-    width: 100px;
     border-right: #999 1px solid;
     background: #5dbda4;
 }
