@@ -16,7 +16,7 @@ body {
 }
 #nav {
     background-color: inherit;
-    text-align: left;
+    text-align: center;
     position: fixed;
     left: 0;
     top: 0;
@@ -24,11 +24,43 @@ body {
     z-index: 10000;
     cursor: default;
 }
+/*#nav a {*/
+    /*color: #5dbda4;*/
+    /*text-decoration: none;*/
+    /*font-family: 'Raleway', "Hiragino Kaku Gothic ProN", Meiryo, sans-serif;*/
+    /*font-size: 1.5rem;*/
+/*}*/
+#nav ul {
+    margin-bottom: 0;
+}
+
+#nav li {
+    display: inline-block;
+    margin: 5px;
+}
+
 #nav a {
+    position: relative;
+    display: block;
     color: #5dbda4;
     text-decoration: none;
-    font-family: 'Raleway', "Hiragino Kaku Gothic ProN", Meiryo, sans-serif;
-    font-size: 1.5rem;
+    outline: 0;
+}
+
+#nav a:hover {
+    color: #5dbda4 !important;
+}
+
+#nav a.active:before {
+    content: '';
+    display: block;
+    position: absolute;
+    bottom: -0.6em;
+    left: 50%;
+    margin-left: -0.75em;
+    border-left: solid 0.75em transparent;
+    border-right: solid 0.75em transparent;
+    border-top: solid 0.6em #282828;
 }
 .header {
     padding: 100px 30px 80px;
