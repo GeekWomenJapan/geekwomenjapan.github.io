@@ -1,0 +1,351 @@
+@charset "UTF-8";
+
+html {
+    font-size: 62.5%;
+}
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+body {
+    background-color: #fff;
+    background-size: cover;
+    color: #666;
+    text-align: center;
+    font-size: 1.4rem;
+    font-family: 'Raleway', "Hiragino Kaku Gothic ProN", Meiryo, sans-serif;
+}
+#nav {
+    background-color: inherit;
+    text-align: center;
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    z-index: 10000;
+    cursor: default;
+}
+/*#nav a {*/
+    /*color: #5dbda4;*/
+    /*text-decoration: none;*/
+    /*font-family: 'Raleway', "Hiragino Kaku Gothic ProN", Meiryo, sans-serif;*/
+    /*font-size: 1.5rem;*/
+/*}*/
+#nav ul {
+    margin-bottom: 0;
+}
+
+#nav li {
+    display: inline-block;
+    margin: 5px;
+}
+
+#nav a {
+    position: relative;
+    display: block;
+    color: #5dbda4;
+    text-decoration: none;
+    outline: 0;
+}
+
+#nav a:hover {
+    color: #5dbda4 !important;
+}
+
+#nav a.active:before {
+    content: '';
+    display: block;
+    position: absolute;
+    bottom: -0.6em;
+    left: 50%;
+    margin-left: -0.75em;
+    border-left: solid 0.75em transparent;
+    border-right: solid 0.75em transparent;
+    border-top: solid 0.6em #282828;
+}
+.header {
+    padding: 100px 30px 80px;
+}
+.site-title-sub {
+    margin: 0 0 30px;
+    letter-spacing: 1px;
+    font-size: 2.2rem;
+}
+.site-title-sub::before,
+.site-title-sub::after {
+    content: '';
+    display: inline-block;
+    width: 140px;
+    height: 2px;
+    margin: 0 30px;
+    background-color: #ffffff;
+    vertical-align: middle;
+}
+.site-title {
+    margin: 50px 0 40px;
+    font-size: 6rem;
+    color: #5dbda4;
+}
+.site-logo {
+    display: inline-block;
+    width: 250px;
+}
+.site-description {
+    margin-bottom: 50px;
+    color: #888888;
+    font-size: 1.6rem;
+}
+.button {
+    margin: 10px;
+    display: inline-block;
+    width: 200px;
+    padding: 20px;
+    border-radius: 4px;
+    background-color: #666;
+    color: #fff;
+    text-decoration: none;
+    letter-spacing: 1px;
+    font-size: 2rem;
+}
+.button:hover {
+    opacity: 0.9;
+}
+.button-showy {
+    background-color: #5dbda4;
+}
+.button-showy:hover {
+    background-color: #ff827d;
+}
+.what-is {
+    padding: 30px 30px;
+    background-color: #cafff1;
+}
+.hero-image {
+    width: 100%;
+}
+.about {
+    padding: 30px 30px;
+    background-color: #fff;
+    color: #5dbda4;
+}
+.heading {
+    color: #5dbda4;
+    position: relative;
+    display: inline-block;
+    margin: 30px 0 15px;
+    padding-bottom: 15px;
+    letter-spacing: 2px;
+    font-size: 4rem;
+}
+.heading::before,
+.heading::after {
+    content: '';
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    border-bottom: 1px solid #5dbda4;
+}
+.heading::before {
+    bottom: 5px;
+}
+.sub-heading{
+    color: #5dbda4;
+    position: relative;
+    display: inline-block;
+    margin: 30px 0 15px;
+    padding-bottom: 15px;
+    letter-spacing: 2px;
+    font-size: 2.5rem;
+}
+.about-text {
+    margin: 30px 0;
+    line-height: 2.5;
+}
+table.about-table {
+    width: 80%;
+    margin: 0 auto;
+    border-collapse: separate;
+    border-spacing: 0 15px;
+    font-size: 1.5rem;
+    color: #666;
+}
+
+table.about-table th,
+table.about-table td {
+    padding: 10px;
+}
+
+table.about-table th {
+    background: #5dbda4;
+    vertical-align: middle;
+    text-align: left;
+    width: 110px;
+    overflow: visible;
+    position: relative;
+    color: #fff;
+    font-weight: normal;
+    font-size: 15px;
+}
+
+table.about-table th:after {
+    left: 100%;
+    top: 50%;
+    border: solid transparent;
+    content: " ";
+    height: 0;
+    width: 0;
+    position: absolute;
+    pointer-events: none;
+    border-color: rgba(136, 183, 213, 0);
+    border-left-color: #5dbda4;
+    border-width: 10px;
+    margin-top: -10px;
+}
+/* firefox */
+@-moz-document url-prefix() {
+    table.about-table th::after {
+        float: right;
+        padding: 0;
+        left: 30px;
+        top: 10px;
+        content: " ";
+        height: 0;
+        width: 0;
+        position: relative;
+        pointer-events: none;
+        border: 10px solid transparent;
+        border-left: #5dbda4 10px solid;
+        margin-top: -10px;
+    }
+}
+
+table.about-table td {
+    background: #f8f8f8;
+    width: 360px;
+    padding-left: 20px;
+}
+.contact {
+    width: 100%;
+}
+.icon {
+    text-decoration: none;
+}
+.icon:before {
+    display: inline-block;
+    font-family: FontAwesome;
+    font-size: 1.25em;
+    text-decoration: none;
+    font-style: normal;
+    font-weight: normal;
+    line-height: 1;
+    color: #5dbda4;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.icon > .label {
+    display: none;
+}
+.footer {
+    padding: 12px 0;
+    font-size: 1.3rem;
+}
+table.timetable-table {
+    font-size: 1.3rem;
+    margin: 0 auto;
+    border-collapse: separate;
+    border-spacing: 0px 1px;
+    color: #999;
+    background-color: #ffffff;
+}
+
+table.timetable-table th {
+    padding: 12px;
+    vertical-align: middle;
+    text-align: center;
+    border-bottom: #999 1px solid;
+    color: #fff;
+}
+
+table.timetable-table td {
+    padding: 1.3rem;
+    vertical-align: middle;
+    text-align: center;
+    border-bottom: #999 1px solid;
+    border-right: #999 1px solid;
+    font-size: 11px;
+}
+
+table.timetable-table th.row {
+    border-right: #999 1px solid;
+    background: #5dbda4;
+}
+.sponsor-img-L,
+.sponsor-img-M,
+.sponsor-img-S {
+    padding: 10px;
+}
+.call-for-sponsor {
+    margin: 10px;
+    display: inline-block;
+    padding: 20px;
+    border-radius: 4px;
+    background-color: #666;
+    color: #fff;
+    text-decoration: none;
+    letter-spacing: 1px;
+    font-size: 2rem;
+}
+@media (max-width: 1024px) {
+    body {
+        background-image: none;
+    }
+}
+@media (max-width: 768px) {
+    .site-title-sub::before,
+    .site-title-sub::after {
+        display: block;
+        width: 80%;
+        margin: 10px auto;
+    }
+    .site-title-sub {
+        font-size: 1.7rem;
+    }
+    .site-title {
+        margin-top: 35px;
+        font-size: 3rem;
+    }
+    .site-description {
+        font-size: 1.3rem;
+    }
+    .header {
+        padding-top: 60px;
+    }
+    .button:hover {
+        opacity: 1;
+    }
+    .hero-image {
+        width: 100%;
+    }
+    .heading {
+        font-size: 2.5rem;
+    }
+    body {
+        font-size: 1.3rem;
+    }
+    .about-text {
+        line-height: 1.8;
+    }
+    .community-image {
+        width: 40%;
+    }
+    .sponsor-img-L {
+        width: 90%;
+    }
+    .sponsor-img-M {
+        width: 75%;
+    }
+    .sponsor-img-S {
+        width: 60%;
+    }
+}
