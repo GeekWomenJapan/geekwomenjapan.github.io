@@ -278,6 +278,12 @@ table.timetable-table th {
     text-align: center;
     border-bottom: #999 1px solid;
     color: #fff;
+    width: 5%;
+}
+
+table.timetable-table th.row {
+    border-right: #999 1px solid;
+    background: #5dbda4;
 }
 
 table.timetable-table td {
@@ -286,7 +292,7 @@ table.timetable-table td {
     text-align: center;
     border-bottom: #999 1px solid;
     border-right: #999 1px solid;
-    font-size: 11px;
+    width: 10%;
 }
 
 table.timetable-table th.row {
@@ -366,4 +372,59 @@ table.timetable-table th.row {
     .sponsor-img-S {
         width: 60%;
     }
+    table.about-table {
+        width: 100%;
+    }
+    table.timetable-table{
+        display: block;
+        list-style: none;
+    }
+    table.timetable-table thead{
+        display: none;
+    }
+    table.timetable-table tbody{
+        width: 100%;
+        display: block;
+    }
+    table.timetable-table tbody tr{
+        width: 100%;
+        display: block;
+        margin-bottom: 1.5em;
+    }
+    table.timetable-table tbody th,
+    table.timetable-table tbody td{
+        width: 100%;
+        display: list-item;
+        border: none;
+    }
+    table.timetable-table tbody th{
+        font-size: 1.7rem;
+        margin-bottom: 5px;
+        list-style-type: none;
+        color: #fff;
+        background: #5dbda4;
+    }
+    table.timetable-table tbody td{
+        width: 90%;
+        font-size:1.5rem;
+        text-align: left;
+        margin-left: 20px;
+        padding: 0;
+    }
+    table.timetable-table tbody td.all {
+        width: 100%;
+    }
+    .session-title {
+        font-weight:bold;
+        font-size:1.5rem;
+    }
+    .session-desc {
+        font-size:1.5rem;
+    }
+
+    table.timetable-table tbody td.row:nth-of-type(1)::before { content: "[417] "; }
+    table.timetable-table tbody td.row:nth-of-type(2)::before { content: "[416] "; }
+    table.timetable-table tbody td.row:nth-of-type(3)::before { content: "[402] "; }
+    table.timetable-table tbody td.row:nth-of-type(4)::before { content: "[403] "; }
+    table.timetable-table tbody td.row:nth-of-type(5)::before { content: "[405] "; }
 }
