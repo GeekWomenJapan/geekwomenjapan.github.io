@@ -120,9 +120,6 @@ body {
     background-color: #cafff1;
     width: 100%;
 }
-.hero-image {
-    width: 100%;
-}
 .about {
     padding: 30px 30px;
     background-color: #fff;
@@ -342,9 +339,6 @@ table.timetable-table th.row {
     }
     .what-is {
         padding: 15px;
-    }
-    .hero-image {
-        width: 100%;
     }
     .heading {
         font-size: 2.5rem;
