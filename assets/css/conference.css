@@ -294,15 +294,25 @@ table.timetable-table td {
     border-right: #999 1px solid;
     width: 10%;
 }
-
-table.timetable-table th.row {
-    border-right: #999 1px solid;
-    background: #5dbda4;
+.session-title {
+    font-weight:bold;
+}
+.session-desc {
+    font-size:1rem;
+}
+table.timetable-table td .all {
+    width: 50%;
 }
 .sponsor-img-L,
 .sponsor-img-M,
 .sponsor-img-S {
     padding: 10px;
+}
+.sponsor-img-L {
+    height: 150px;
+}
+.sponsor-img-M {
+    height: 100px;
 }
 .call-for-sponsor {
     margin: 10px;
@@ -364,9 +374,11 @@ table.timetable-table th.row {
         width: 40%;
     }
     .sponsor-img-L {
+        height: 90%;
         width: 90%;
     }
     .sponsor-img-M {
+        height: 75%;
         width: 75%;
     }
     .sponsor-img-S {
