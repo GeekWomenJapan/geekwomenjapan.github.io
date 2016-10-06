@@ -118,6 +118,7 @@ body {
 .what-is {
     padding: 30px 30px;
     background-color: #cafff1;
+    width: 100%;
 }
 .hero-image {
     width: 100%;
@@ -157,9 +158,24 @@ body {
     letter-spacing: 2px;
     font-size: 2.5rem;
 }
+.about-paragraph {
+    display: block;
+}
+.about-text-header,
+.about-text-strong,
 .about-text {
-    margin: 30px 0;
-    line-height: 2.5;
+    display: block;
+    text-align: center;
+    width: 52%;
+    margin: 14px auto;
+    font-size: 1.5rem;
+}
+.about-text-header {
+    font-weight:600;
+    font-size: 2rem;
+}
+.about-text-strong {
+    font-size:1.75rem;
 }
 table.about-table {
     width: 80%;
@@ -324,6 +340,9 @@ table.timetable-table th.row {
     .button:hover {
         opacity: 1;
     }
+    .what-is {
+        padding: 15px;
+    }
     .hero-image {
         width: 100%;
     }
@@ -333,8 +352,13 @@ table.timetable-table th.row {
     body {
         font-size: 1.3rem;
     }
+    .about-paragraph {
+        width: 100%;
+    }
+    .about-text-header,
+    .about-text-strong,
     .about-text {
-        line-height: 1.8;
+        width: 100%;
     }
     .community-image {
         width: 40%;
