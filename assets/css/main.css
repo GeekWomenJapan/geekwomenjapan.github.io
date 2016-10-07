@@ -84,6 +84,15 @@
 	.container {
 		width: 960px;
 	}
+	.conduct {
+		width: 80%;
+		margin: 0px auto;
+		text-align: left;
+	}
+
+	.conduct ul {
+		list-style: circle;
+	}
 
 	@media screen and (min-width: 737px) {
 
@@ -1975,7 +1984,7 @@
 			}
 
 			header {
-				margin: 0 0 2em 0;
+				margin: 2rem 0 2rem 0;
 			}
 
 				header > p {
