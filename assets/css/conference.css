@@ -303,6 +303,31 @@ table.timetable-table td {
 table.timetable-table td .all {
     width: 50%;
 }
+.speakers {
+    width: 50%;
+    height: 230px;
+    margin: 0 auto;
+    list-style: none;
+    padding-left: 0;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.speaker {
+    width: 50%;
+    position: relative;
+    margin: 0 auto;
+    float: left;
+}
+.speaker-img {
+    display: inline-block;
+}
+.speaker-name {
+    font-weight: bold;
+}
+.speaker-desc {
+    width: 80%;
+    display: inline-block;
+}
 .sponsor-img-L,
 .sponsor-img-M,
 .sponsor-img-S {
@@ -370,6 +395,11 @@ table.timetable-table td .all {
     .about-text {
         width: 100%;
     }
+    .speaker {
+        width: 100%;
+    }
+
+
     .community-image {
         width: 40%;
     }
@@ -433,10 +463,15 @@ table.timetable-table td .all {
     .session-desc {
         font-size:1.5rem;
     }
-
     table.timetable-table tbody td.row:nth-of-type(1)::before { content: "[417] "; }
     table.timetable-table tbody td.row:nth-of-type(2)::before { content: "[416] "; }
     table.timetable-table tbody td.row:nth-of-type(3)::before { content: "[402] "; }
     table.timetable-table tbody td.row:nth-of-type(4)::before { content: "[403] "; }
     table.timetable-table tbody td.row:nth-of-type(5)::before { content: "[405] "; }
+    .speakers {
+        width: 100%;
+    }
+    .speaker {
+        width: 100%;
+    }
 }
