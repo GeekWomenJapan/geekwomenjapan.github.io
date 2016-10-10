@@ -368,17 +368,17 @@ table.timetable-table td .all {
   display: inline-block;
 }
 
-.sponsor-img-L,
-.sponsor-img-M,
-.sponsor-img-S {
+.sponsor-img-l,
+.sponsor-img-m,
+.sponsor-img-s {
   padding: 10px;
 }
 
-.sponsor-img-L {
+.sponsor-img-l {
   height: 150px;
 }
 
-.sponsor-img-M {
+.sponsor-img-m {
   height: 100px;
 }
 
@@ -459,17 +459,17 @@ table.timetable-table td .all {
     width: 40%;
   }
 
-  .sponsor-img-L {
+  .sponsor-img-l {
     height: 90%;
     width: 90%;
   }
 
-  .sponsor-img-M {
+  .sponsor-img-m {
     height: 75%;
     width: 75%;
   }
 
-  .sponsor-img-S {
+  .sponsor-img-s {
     width: 60%;
   }
 
