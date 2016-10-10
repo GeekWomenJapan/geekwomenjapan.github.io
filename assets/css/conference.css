@@ -329,7 +329,8 @@ table.timetable-table td {
 .session-title {
   font-weight: bold;
 }
-
+.session-speaker {
+}
 .session-desc {
   font-size: 1rem;
 }
