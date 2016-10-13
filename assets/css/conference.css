@@ -376,11 +376,15 @@ table.timetable-table td .all {
 }
 
 .sponsor-img-l {
-  height: 150px;
+  height: 125px;
 }
 
 .sponsor-img-m {
   height: 100px;
+}
+
+.sponsor-img-s {
+  height: 75px;
 }
 
 .call-for-sponsor {
