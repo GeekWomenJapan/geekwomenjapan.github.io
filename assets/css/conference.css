@@ -542,23 +542,23 @@ table.timetable-table td .all {
   }
 
   table.timetable-table tbody td.row:nth-of-type(1)::before {
-    content: "[417] ";
+    content: "[Room A] ";
   }
 
   table.timetable-table tbody td.row:nth-of-type(2)::before {
-    content: "[416] ";
+    content: "[Room B] ";
   }
 
   table.timetable-table tbody td.row:nth-of-type(3)::before {
-    content: "[402] ";
+    content: "[Room C] ";
   }
 
   table.timetable-table tbody td.row:nth-of-type(4)::before {
-    content: "[403] ";
+    content: "[Room D] ";
   }
 
   table.timetable-table tbody td.row:nth-of-type(5)::before {
-    content: "[405] ";
+    content: "[Room E] ";
   }
 
   .speakers {
