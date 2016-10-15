@@ -349,8 +349,15 @@ table.timetable-table td .all {
   padding-bottom: 10px;
 }
 
-.speaker {
+.keynote-speaker {
   width: 50%;
+  position: relative;
+  margin: 0 auto;
+  float: left;
+}
+
+.speaker {
+  width: 33%;
   position: relative;
   margin: 0 auto;
   float: left;
@@ -358,6 +365,7 @@ table.timetable-table td .all {
 
 .speaker-img {
   display: inline-block;
+  height: 175px;
 }
 
 .speaker-name {
@@ -458,6 +466,7 @@ table.timetable-table td .all {
     width: 100%;
   }
 
+  .keynote-speaker,
   .speaker {
     width: 100%;
   }
