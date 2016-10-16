@@ -377,7 +377,7 @@ table.timetable-table td .all {
   display: inline-block;
 }
 .sponsor-logo{
-
+  display:block;
 }
 .sponsor-img-l,
 .sponsor-img-m,
@@ -473,6 +473,10 @@ table.timetable-table td .all {
 
   .community-image {
     width: 40%;
+  }
+
+  .sponsor-logo {
+    display:block;
   }
 
   .sponsor-img-l {
