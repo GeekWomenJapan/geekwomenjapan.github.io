@@ -380,7 +380,7 @@ figcaption {
   display: inline-block;
 }
 .sponsor-logo{
-  display:block;
+  display:inline-block;
 }
 .sponsor-img-l,
 .sponsor-img-m,
