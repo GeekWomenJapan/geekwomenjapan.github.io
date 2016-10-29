@@ -356,16 +356,19 @@ table.timetable-table td .all {
   float: left;
 }
 
-.speaker {
-  width: 33%;
-  position: relative;
-  margin: 0 auto;
-  float: left;
-}
-
-.speaker-img {
+figure {
   display: inline-block;
+  margin: 0px 3px 7px 0px;
+  background-color: transparent;
+}
+figure img {
+  display: block;
   height: 175px;
+  margin: 0px auto 3px auto;
+}
+figcaption {
+  font-size: 0.9em;
+  text-align: center;
 }
 
 .speaker-name {
