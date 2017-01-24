@@ -263,9 +263,6 @@ table.timetable-table .session-speaker {font-size:0.9em; padding:0; line-height:
 #speaker .description { font-size:1.0rem; line-height:1.7rem;}
 #speaker h4 {font-weight:bold; margin:0 0 0.3rem 0;}
 
-/* community */
-#community li {float:left; padding:8px;}
-
 /* footer */
 .copy {text-align:center; padding:10px 0; background:#5dbda4; font-size:0.8em;}
 .copy a { color:#fff;}
@@ -360,9 +357,4 @@ table.timetable-table tbody td:nth-of-type(3).row::before {content: "[Room C+D] 
 #speaker .speaker_photo { float:none; width:175px; height:175px; margin:0 auto 10px auto;}
 #speaker .profile p {text-align:center;}
 #speaker .profile .sub {text-align:left;}
-
-
-/* community */
-#community li {float:left; padding:2% 2px; text-align:center;}
-#community li img {width:78%}
 }
