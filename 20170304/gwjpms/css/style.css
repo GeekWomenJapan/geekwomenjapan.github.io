@@ -252,6 +252,7 @@ table.timetable-table .session-speaker {font-size:0.9em; padding:0; line-height:
 /* speaker */
 #speaker ul .list {padding-top:40px;}
 #speaker h3 { width:100%; color:#fff; background:#ff8f8f; font-size:1.6rem; line-height:2.0rem; padding:10px 25px 6px 25px;}
+#speaker h3 .time {font-size: 1.0rem; vertical-align: middle;}
 #speaker .inner_box { background:#fff; padding:20px 25px;}
 #speaker .speaker_photo {float:left; width:175px; height:175px; margin:0 20px 0 0;}
 #speaker .speaker_photo img {width:175px; height:175px; border-radius: 175px; -webkit-border-radius: 175px; -moz-border-radius: 175px;}
