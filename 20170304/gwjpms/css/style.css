@@ -239,6 +239,56 @@ h3 {font-size:1.3rem;}
 #about .photo li {font-size: 0; display: inline-block; width:16.6%;}
 #about .photo img {width: 100%; margin:0; padding:0;}
 
+/* mvp */
+#mvp {
+	width:940px;
+	border: 2px solid #0078d7;
+	padding: 18px;
+	margin:0 auto;
+}
+#mvp h2 {
+	color: #0078d7;
+	text-align: center;
+	font-size: 1.6rem;
+	line-height: 2.4rem;
+}
+#mvp .description {
+	padding: 0 0 20px 0;
+}
+#mvp .description img {
+	float: right;
+	padding: 0 50px 15px 50px;
+}
+#mvp .description p {
+	font-size: 0.9rem;
+	line-height: 1.6rem;
+}
+#mvp .contact {
+	border-top:1px solid #0078d7;
+	padding: 20px 0 0 0 ;
+}
+#mvp .contact h3 {
+	float: left;
+	width: 145px;
+	font-size: 1.0rem;
+	text-align: center;
+	background: #e4e4e4;
+	padding: 25px 0;
+	margin: 0;
+}
+#mvp .contact ul {
+	float: left;
+	width: 725px;
+	padding: 0 0 0 50px;
+	margin: 0;
+	font-size: 0.9rem;
+	line-height: 1.6rem;
+}
+#mvp .contact li {
+	list-style: circle;
+	padding: 0 0 5px 0;
+}
+
 /* timetable */
 #timetable { background:#ebebeb;}
 table.timetable-table {margin: 0 auto; border-collapse: collapse; border-spacing: 0; background: #fff; border-top:1px solid #646464; border-left:1px solid #646464; font-size:1.0rem;}
@@ -263,6 +313,66 @@ table.timetable-table .session-speaker {font-size:0.9em; padding:0; line-height:
 #speaker p {font-size:1.0rem; margin:0; padding:0; line-height:1.6rem;}
 #speaker .description { font-size:1.0rem; line-height:1.7rem;}
 #speaker h4 {font-weight:bold; margin:0 0 0.3rem 0;}
+
+/* nursery */
+#nursery {
+	padding:40px 0 0 0;
+}
+#nursery .description {
+	border-bottom: 1px solid #9be1cf;
+}
+#nursery .description .txt {
+	float: left;
+	width: 700px;
+}
+#nursery .description .txt h2 {
+	font-size: 1.8rem;
+	padding: 0 0 20px 0;
+}
+#nursery .description .txt p {
+	font-size: 1.0rem;
+	padding-bottom: 10px;
+}
+#nursery .description .photo {float:right; width:260px; height:260px; margin:0;}
+#nursery .description .photo img {width:260px; height:260px; border-radius: 260px; -webkit-border-radius: 260px; -moz-border-radius: 260px;}
+#nursery .sub_CS_btn {width: 360px; margin: 0 auto; text-align: center;}
+#nursery .sub_CS_btn p {
+	width:360px;
+	background-color:#828282;
+	-moz-border-radius:70px;
+	-webkit-border-radius:70px;
+	border-radius:70px;
+	border:1px solid #474747;
+	display:inline-block;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:2.0rem !important;
+	font-weight:bold;
+	padding:10px 0 10px 0;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #000000;
+}
+#nursery .sub_CS_btn p span { font-size: 1.6rem;}
+#nursery .txt_cs {text-align: center; font-size: 1.0rem;}
+#nursery h3 {font-size: 1.0rem; line-height: 1.0rem; padding: 4px 10px; background: #9be1cf; font-weight: bold; margin: 0 0 10px 0;}
+#nursery li {font-size: 0.9rem; line-height: 1.6rem; list-style: decimal; padding: 0 0 5px 0; margin: 0 0 0 25px;}
+#nursery .contact {font-size: 0.9rem; line-height: 1.6rem; padding:10px 0 0 0; margin: 0; border-top: 1px solid #9be1cf;}
+
+/* nursery_innner_btn */
+.nursery_innner_btn {width: 420px; margin: 0 auto; text-align: center;}
+.nursery_innner_btn a {
+	width:420px;
+	background-color:#9be1cf;
+	-moz-border-radius:70px;
+	-webkit-border-radius:70px;
+	border-radius:70px;
+	border:1px solid #67c7ae;
+	display:inline-block;
+	font-weight:bold;
+	padding:10px 0 10px 0;
+	text-decoration:none;
+	font-size: 1.2rem !important;
+}
 
 /* footer */
 .copy {text-align:center; padding:10px 0; background:#5dbda4; font-size:0.8em;}
@@ -340,6 +450,48 @@ h2 { font-size:1.2rem; line-height:1.8rem;}
 /* about */
 #about .ttl, #about .sub {text-align:left;}
 #about .photo li {font-size: 0; display: inline-block; width:33.3%;}
+	
+/* mvp */
+#mvp {
+	width:100%;
+	border-top: 2px solid #0078d7;
+	border-bottom: 2px solid #0078d7;
+	border-left:none; 
+	border-right:none; 
+	padding: 3% 2%;
+}
+#mvp h2 {
+	text-align: left;
+	font-size: 1.1rem;
+	line-height: 1.8rem;
+}
+#mvp .description img {
+	float: center;
+	padding: 0 5% 2% 5%;
+}
+#mvp .description p {
+	font-size: 0.9rem;
+	line-height: 1.6rem;
+}
+#mvp .contact {
+	border-top:none;
+	padding: 0 ;
+}
+#mvp .contact h3 {
+	float: none;
+	width: 100%;
+	padding: 0;
+	margin: 0 0 10px 0;
+}
+#mvp .contact ul {
+	float: none;
+	width: 100%;
+	padding: 0 0 0 20px;
+}
+#mvp .contact li {
+	list-style: circle;
+	padding: 0 0 5px 0;
+}
 
 /* timetable */
 table.timetable-table {display: block; list-style:none;  border:none;}
@@ -358,4 +510,17 @@ table.timetable-table tbody td:nth-of-type(3).row::before {content: "[Room C+D] 
 #speaker .speaker_photo { float:none; width:175px; height:175px; margin:0 auto 10px auto;}
 #speaker .profile p {text-align:center;}
 #speaker .profile .sub {text-align:left;}
+
+/* nursery */
+#nursery .description .txt {float: none;width: 100%;}
+#nursery .description .txt h2 {font-size: 1.2rem;}
+#nursery .description .txt p {font-size: 0.9rem;}
+#nursery .description .photo {float:none; margin:0 auto;}
+#nursery .sub_CS_btn {width: 90%;}
+#nursery .sub_CS_btn p {width:90%;}
+
+/* nursery_innner_btn */
+.nursery_innner_btn {width: 95%;}
+.nursery_innner_btn a {width:95%; font-size: 1.0rem !important;}
+	
 }
