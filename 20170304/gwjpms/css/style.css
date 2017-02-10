@@ -336,24 +336,30 @@ table.timetable-table .session-speaker {font-size:0.9em; padding:0; line-height:
 }
 #nursery .description .photo {float:right; width:260px; height:260px; margin:0;}
 #nursery .description .photo img {width:260px; height:260px; border-radius: 260px; -webkit-border-radius: 260px; -moz-border-radius: 260px;}
-#nursery .sub_CS_btn {width: 360px; margin: 0 auto; text-align: center;}
-#nursery .sub_CS_btn p {
+
+#nursery .sub_btn_area {width: 360px; margin: 0 auto; text-align: center;}
+#nursery .sub_btn {
 	width:360px;
-	background-color:#828282;
+	background-color:#ea0700;
 	-moz-border-radius:70px;
 	-webkit-border-radius:70px;
 	border-radius:70px;
-	border:1px solid #474747;
+	border:1px solid #b05956;
 	display:inline-block;
+	cursor:pointer;
 	color:#ffffff;
 	font-family:Arial;
-	font-size:2.0rem !important;
 	font-weight:bold;
-	padding:10px 0 10px 0;
+	padding:14px 0 12px 0;
 	text-decoration:none;
 	text-shadow:0px 1px 0px #000000;
+	text-align: center;
+	font-size: 1.6rem;
 }
-#nursery .sub_CS_btn p span { font-size: 1.6rem;}
+#nursery .sub_btn:hover {background-color:#f33c35;}
+#nursery .sub_btn:active {position:relative; top:1px;}
+#nursery .sub_btn a {color: #fff; text-decoration: none;}
+
 #nursery .txt_cs {text-align: center; font-size: 1.0rem;}
 #nursery h3 {font-size: 1.0rem; line-height: 1.0rem; padding: 4px 10px; background: #9be1cf; font-weight: bold; margin: 0 0 10px 0;}
 #nursery li {font-size: 0.9rem; line-height: 1.6rem; list-style: decimal; padding: 0 0 5px 0; margin: 0 0 0 25px;}
@@ -517,8 +523,8 @@ table.timetable-table tbody td:nth-of-type(3).row::before {content: "[Room C+D] 
 #nursery .description .txt h2 {font-size: 1.2rem;}
 #nursery .description .txt p {font-size: 0.9rem;}
 #nursery .description .photo {float:none; margin:0 auto;}
-#nursery .sub_CS_btn {width: 90%;}
-#nursery .sub_CS_btn p {width:90%;}
+#nursery .sub_btn_area {width: 90%;}
+#nursery .sub_btn {width:90%;}
 
 /* nursery_innner_btn */
 .nursery_innner_btn {width: 95%;}
