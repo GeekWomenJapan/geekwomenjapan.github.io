@@ -295,7 +295,7 @@ h3 {font-size:1.3rem;}
 table.timetable-table {margin: 0 auto; border-collapse: collapse; border-spacing: 0; background: #fff; border-top:1px solid #646464; border-left:1px solid #646464; font-size:1.0rem;}
 table.timetable-table th {padding: 0.3rem 0.8rem; width: 5%; text-align: center; vertical-align: middle; background: #9be1cf; border-right:1px solid #646464; border-bottom:1px solid #646464;}
 table.timetable-table th span { font-size:0.8rem;}
-table.timetable-table td {padding: 0.8rem; width: 10%; text-align: left; vertical-align: middle; border-right:1px solid #646464; border-bottom:1px solid #646464;}
+table.timetable-table td {padding: 0.8rem; width: 10%; text-align: left; vertical-align: top; border-right:1px solid #646464; border-bottom:1px solid #646464;}
 table.timetable-table .sub { text-align: center;}
 table.timetable-table .session-title {font-weight: bold; padding:0; line-height:1.6rem; padding-bottom:0.5rem;}
 table.timetable-table .session-speaker {font-size:0.9em; padding:0; line-height:1.2rem;}
