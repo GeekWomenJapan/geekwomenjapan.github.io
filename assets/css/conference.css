@@ -577,6 +577,10 @@ figcaption {
     content: "[Room E] ";
   }
 
+  .floor-map {
+    width: 100%;
+  }
+
   .speakers {
     width: 100%;
   }
