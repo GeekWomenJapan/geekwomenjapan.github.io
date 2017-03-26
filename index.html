@@ -29,17 +29,6 @@
             <a href="https://twitter.com/share" class="twitter-share-button" data-url="http://geekwomenjapan.github.io/"
                data-text="女性エンジニアの集まるカンファレンスイベント運営団体「Geek Women Japan」" data-via="geekwomenjapan"
                data-hashtags="geekwomenjapan">Tweet</a>
-            <script>
-                !function (d, s, id) {
-                    var js, fjs = d.getElementsByTagName(s)[0], p = /^http:/.test(d.location) ? 'http' : 'https';
-                    if (!d.getElementById(id)) {
-                        js = d.createElement(s);
-                        js.id = id;
-                        js.src = p + '://platform.twitter.com/widgets.js';
-                        fjs.parentNode.insertBefore(js, fjs);
-                    }
-                }(document, 'script', 'twitter-wjs');
-            </script>
         </li>
         <li>
             <!-- はてブ数表示する場合はこちら <a href="http://b.hatena.ne.jp/entry/http://geekwomenjapan.github.io/" class="hatena-bookmark-button" data-hatena-bookmark-title="Geek Women Japan" data-hatena-bookmark-layout="simple-balloon" title="このページをはてなブックマークに追加"><img src="https://b.st-hatena.com/images/entry-button/button-only@2x.png" alt="このページをはてなブックマークに追加" width="20" height="20" style="border: none;" /></a><script type="text/javascript" src="https://b.st-hatena.com/js/bookmark_button.js" charset="utf-8" async="async"></script> -->
@@ -152,15 +141,6 @@
                 <div class="6u 12u(mobile)">
                     <a class="twitter-timeline" href="https://twitter.com/hashtag/geekwomenjapan"
                        data-widget-id="737526555392409600">#geekwomenjapan のツイート</a>
-                    <script>!function (d, s, id) {
-                        var js, fjs = d.getElementsByTagName(s)[0], p = /^http:/.test(d.location) ? 'http' : 'https';
-                        if (!d.getElementById(id)) {
-                            js = d.createElement(s);
-                            js.id = id;
-                            js.src = p + "://platform.twitter.com/widgets.js";
-                            fjs.parentNode.insertBefore(js, fjs);
-                        }
-                    }(document, "script", "twitter-wjs");</script>
                 </div>
             </div>
         </div>
@@ -227,6 +207,15 @@
 <script src="assets/js/ie/respond.min.js"></script><![endif]-->
 <script src="assets/js/main.js"></script>
 <div id="fb-root"></div>
+<script>!function (d, s, id) {
+    var js, fjs = d.getElementsByTagName(s)[0], p = /^http:/.test(d.location) ? 'http' : 'https';
+    if (!d.getElementById(id)) {
+        js = d.createElement(s);
+        js.id = id;
+        js.src = p + "://platform.twitter.com/widgets.js";
+        fjs.parentNode.insertBefore(js, fjs);
+    }
+}(document, "script", "twitter-wjs");</script>
 <script>(function (d, s, id) {
     var js, fjs = d.getElementsByTagName(s)[0];
     if (d.getElementById(id)) return;
