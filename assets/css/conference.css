@@ -379,7 +379,7 @@ figcaption {
   width: 80%;
   display: inline-block;
 }
-.sponsor-logo{
+.sponsor-img{
   display:inline-block;
 }
 .sponsor-img-l,
@@ -478,7 +478,7 @@ figcaption {
     width: 40%;
   }
 
-  .sponsor-logo {
+  .sponsor-img {
     display:block;
   }
 
