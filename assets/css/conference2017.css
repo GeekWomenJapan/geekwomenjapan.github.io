@@ -434,19 +434,25 @@ figcaption {
 
   .site-title-sub {
     font-size: 1.7rem;
+    width: 100%;
   }
 
   .site-title {
     margin-top: 35px;
     font-size: 3rem;
+    width: 100%;
   }
 
   .site-description {
     font-size: 1.3rem;
+    width: 100%;
   }
 
   .header {
     padding-top: 100px;
+    background-image: url("../../images/conference2017/womens-plaza-hole.jpg");
+    background-size: cover;
+    background-position: center;
   }
 
   .button:hover {
