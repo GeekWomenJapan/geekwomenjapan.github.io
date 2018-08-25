@@ -1,7 +1,6 @@
 /*
 
 Hydro Template 
-
 http://www.templatemo.com/tm-509-hydro
 
 */  
@@ -11,6 +10,7 @@ http://www.templatemo.com/tm-509-hydro
     background: #ffffff;
     font-family: 'Poppins', sans-serif;
     overflow-x: hidden;
+    text-align: center;
   }
 
 
@@ -149,6 +149,28 @@ http://www.templatemo.com/tm-509-hydro
     text-align: center;
   }
 
+  dl{
+      font-size:18px;
+      color: #696969;
+      margin-right: auto;
+      margin-left: auto;
+  }
+  dt {
+    /*左に寄せる*/
+    float: left;
+    /*後続の左寄せを解除*/
+    clear: left;
+    margin-right: 0.5em;
+    width: 120px;
+    
+
+  }
+
+  dd {
+    float: left;
+    margin-left: 1em;
+
+  }
 
   /*---------------------------------------
        PRE LOADER              
@@ -744,7 +766,6 @@ for old browsers */
   .whatis-ads h4 {
     font-size: 18px;
   }
-
 
   /*---------------------------------------
       CONTACTS             
