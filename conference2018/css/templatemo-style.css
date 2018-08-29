@@ -152,8 +152,11 @@ http://www.templatemo.com/tm-509-hydro
   dl{
       font-size:18px;
       color: #696969;
-      margin-right: auto;
+      margin: 0 auto;
+      display: inline-block;
+      /* margin-right: auto;
       margin-left: auto;
+      text-align:center; */
   }
   dt {
     /*左に寄せる*/
@@ -161,15 +164,12 @@ http://www.templatemo.com/tm-509-hydro
     /*後続の左寄せを解除*/
     clear: left;
     margin-right: 0.5em;
-    width: 120px;
-    
-
+    /* width: 120px; */
   }
 
   dd {
     float: left;
     margin-left: 1em;
-
   }
 
   /*---------------------------------------
