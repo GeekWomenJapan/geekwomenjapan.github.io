@@ -782,7 +782,7 @@ for old browsers */
   }
 
   .google-map {
-    border-radius: 100%;
+    border-radius: 50px;
     width: 300px;
     height: 300px;
     overflow: hidden;
