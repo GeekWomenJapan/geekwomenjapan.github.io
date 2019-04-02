@@ -1,6 +1,12 @@
 import Vue from 'vue'
 import NuxtLoading from './components/nuxt-loading.vue'
 
+import '../node_modules/@fortawesome/fontawesome-svg-core/styles.css'
+
+import '../node_modules/@fortawesome/fontawesome-svg-core/styles.css'
+
+import '../node_modules/@fortawesome/fontawesome-svg-core/styles.css'
+
 import '../assets/style/app.styl'
 
 import _6f6c098b from '../layouts/default.vue'
