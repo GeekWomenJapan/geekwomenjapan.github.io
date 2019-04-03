@@ -1,80 +1,93 @@
-<template lang="pug">
-.header
-  v-toolbar
-    //- v-container
-    //-   v-layout
-    //-     v-toolbar-side-icon(@click.stop='drawer = !drawer')
-    //- v-navigation-drawer(v-model='drawer', absolute='', temporary='')
-    //-   v-list.pa-1
-    //-     v-list-tile(avatar='')
-    //-       v-list-tile-avatar
-    //-         img.logo(src="@/static/logo.png" alt ="TOP")
-    //-       v-list-tile-content
-    //-         v-list-tile-title John Leider
-    //-   v-list.pt-0(dense='')
-    //-     v-divider
-    //-     v-subheader menu
-    //-     v-list-tile(v-for='item in menu', :key='item.title', :to="item.to", @click='')
-    //-       v-list-tile-action
-    //-         v-icon {{ item.icon }}
-    //-       v-list-tile-content
-    //-         v-list-tile-title {{ item.title }}
-    //-     v-list(subheader)
-    //-       v-subheader hogehoge
-    //-     v-list-tile(v-for='item in footermenu', :key='item.title', :to="item.to", @click='')
-    //-       v-list-tile-action
-    //-         v-icon {{ item.icon }}
-    //-       v-list-tile-content
-    //-         v-list-tile-title {{ item.title }}
-    v-btn(icon)
-      img.logo(src="@/static/logo.png" alt ="TOP")
-    v-toolbar-title(color="grey") Geek Women Japan
-    v-spacer
-    v-toolbar-items(class="hidden-sm-and-down")
-      v-btn(
-        color="grey"
-        flat
-        v-t="'header.top'")
-      v-btn(
-        color="grey"
-        flat
-        v-t="'header.event'")
-      v-btn(
-        color="grey"
-        flat
-        v-t="'header.news'")
-      v-btn(
-        color="grey"
-        flat
-        v-t="'header.event'")
-      v-btn(
-        color="grey"
-        flat
-        v-t="'header.what'")
-      v-btn(
-        color="grey"
-        flat
-        v-t="'header.sns'")
-      v-btn(
-        color="grey"
-        flat
-        v-t="'header.contact'")
-    v-spacer
-    v-toolbar-items
-      v-btn(icon)
-        nuxt-link(
-          v-if="$i18n.locale === 'ja'"
-          :to="`/en` + $route.fullPath"
-        ) {{ $t('header.en') }}
-        //- nuxt-link(
-        //-   v-else
-        //-   :to="$route.fullPath.replace(/^\/[^\/]+/, '')"
-        //- ) {{ $t('header.ja') }}
-      v-btn(icon)
-        v-icon replay
-      v-btn(icon)
-        v-icon replay
+<template>
+<div class="header">
+  <v-toolbar>
+  <v-btn icon>
+    <img
+      class="logo"
+      src="@/static/logo.png"
+      alt ="TOP">
+    </img>
+  </v-btn>
+  <v-toolbar-title color="grey" >GEEK WOMEN JAPAN</v-toolbar-title>
+  <v-spacer></v-spacer>
+  <v-toolbar-items class="hidden-sm-and-down">
+    <v-btn
+      color="grey"
+      flat
+      v-t="'header.top'">
+    </v-btn>
+    <v-btn
+      color="grey"
+      flat
+      v-t="'header.event'">
+    </v-btn>
+    <v-btn
+      color="grey"
+      flat
+      v-t="'header.news'">
+    </v-btn>
+    <v-btn
+      color="grey"
+      flat
+      v-t="'header.what'">
+    </v-btn>
+    <v-btn
+      color="grey"
+      flat
+      v-t="'header.sns'">
+    </v-btn>
+    <v-btn
+      color="grey"
+      flat
+      v-t="'header.contact'">
+    </v-btn>
+  </v-toolbar-items>
+  <v-spacer></v-spacer>
+  <v-toolbar-items>
+  <v-btn icon>
+    <NuxtLink v-if="$i18n.locale === 'ja'" :to="`/en` + $route.fullPath" active-class="none" exact>
+      {{ $t('header.en') }}
+    </NuxtLink>
+    <NuxtLink v-else :to="$route.fullPath.replace(/^\/[^\/]+/, '')" active-class="none" exact>
+      {{ $t('header.ja') }}
+    </NuxtLink>
+  </v-btn>
+  <v-btn icon>
+      <a
+        href="https://twitter.com/share"
+        class="twitter-share-button"
+        data-url="http://geekwomenjapan.github.io/"
+        data-text="女性エンジニアの集まるカンファレンスイベント運営団体「Geek Women Japan」"
+        data-via="geekwomenjapan"
+        data-hashtags="geekwomenjapan">
+        <i class="fab fa-twitter"></i>
+      </a>
+      <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+  </v-btn>
+  <v-btn icon>
+      <a
+          href="http://b.hatena.ne.jp/entry/http://geekwomenjapan.github.io/"
+          class="hatena-bookmark-button"
+          data-hatena-bookmark-title="Geek Women Japan"
+          data-hatena-bookmark-layout="simple"
+          title="このエントリーをはてなブックマークに追加">
+        <i
+          class="fab fa-blogger-b"
+          alt="このエントリーをはてなブックマークに追加"
+          style="border: none;"></i>
+          <script
+            type="text/javascript"
+            src="https://b.st-hatena.com/js/bookmark_button.js"
+            charset="utf-8"
+            async="async">
+          </script>
+      </a>
+  </v-btn>
+  </v-toolbar-items>
+  </v-toolbar>
+</div>
 </template>
+
 <script>
 
 export default {
