@@ -7,6 +7,9 @@ const _c6e9f0a0 = () => interopDefault(import('../pages/conducts.vue' /* webpack
 const _12dafb48 = () => interopDefault(import('../pages/conference/2016/index.vue' /* webpackChunkName: "pages/conference/2016/index" */))
 const _b080a3ee = () => interopDefault(import('../pages/conference/2017/index.vue' /* webpackChunkName: "pages/conference/2017/index" */))
 const _727bae21 = () => interopDefault(import('../pages/index.vue' /* webpackChunkName: "pages/index" */))
+const _1c337c1f = () => interopDefault(import('../pages/_lang/index.vue' /* webpackChunkName: "pages/_lang/index" */))
+const _1b5c66d7 = () => interopDefault(import('../pages/_lang/agreement.vue' /* webpackChunkName: "pages/_lang/agreement" */))
+const _3dd0de1c = () => interopDefault(import('../pages/_lang/conducts.vue' /* webpackChunkName: "pages/_lang/conducts" */))
 
 Vue.use(Router)
 
@@ -102,6 +105,18 @@ export function createRouter() {
       path: "/",
       component: _727bae21,
       name: "index"
+    }, {
+      path: "/:lang",
+      component: _1c337c1f,
+      name: "lang"
+    }, {
+      path: "/:lang/agreement",
+      component: _1b5c66d7,
+      name: "lang-agreement"
+    }, {
+      path: "/:lang/conducts",
+      component: _3dd0de1c,
+      name: "lang-conducts"
     }],
 
     fallback: false

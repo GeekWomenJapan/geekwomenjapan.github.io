@@ -1,5 +1,5 @@
 <template lang="pug">
-p conference2016
+p agreement
 </template>
 <script>
 export default {
@@ -7,7 +7,6 @@ export default {
 }
 </script>
 
-<style lang="sass" scoped>
+<style scoped>
 
 </style>
-

@@ -1,0 +1,77 @@
+{
+  "header": {
+    "top": "トップ",
+    "event": "イベント",
+    "news": "お知らせ",
+    "what": "女性エンジニアって？",
+    "sns": "SNS",
+    "contact": "お問い合わせ",
+    "en": "EN",
+    "ja": "JA"
+  },
+  "footer": {
+    "agreement": "運営規約",
+    "conducts": "行動規範",
+    "copyright": "Geek Women Japan. All rights reserved."
+  },
+  "hero": {
+    "title": "We are Geek Women Japan",
+    "introduction_1": "Geek Women Japanは、女性エンジニアの集まるカンファレンスイベント運営団体です。",
+    "introduction_2": "毎年、イベントとしてアドベントカレンダー、ニューイヤーパーティー、カンファレンスを開催しています。"
+  },
+  "event": {
+    "title": "イベント",
+    "description": "2019/1/18(金) 様々な女性エンジニアコミュニティ合同のNew Year Partyを開催しました。",
+    "link": "イベント情報を見る"
+  },
+  "news": {
+    "title": "お知らせ",
+    "topics1": {
+      "days": "2019/04/xx",
+      "title": "サイトをリニューアルしました！",
+      "link_title": "紹介ページ"
+    },
+    "topics2": {
+      "days": "2018/04/xx",
+      "title": "Geek Women Japan New Year Party 2019を開催しました",
+      "link_title": "イベントレポート"
+    },
+    "topics3": {
+      "days": "2018/01/19",
+      "title": "Geek Women Japan New Year Party 2018を開催しました",
+      "link_title": "イベントレポート"
+    },
+    "topics4": {
+      "days": "2017/06/16",
+      "title": "2016年度会計収支を公開しました",
+      "link_title": "2016年度会計収支"
+    },
+    "topics5": {
+      "days": "2017/05/17",
+      "title": "Java Day Tokyoのランチセッションに協力しました",
+      "link_title": "セッション詳細"
+    }
+  },
+  "whatisgeekwomen": {
+    "title": "私達が考える「女性エンジニア」の定義",
+    "definition_1": {
+      "title": "「女性」とは",
+      "description": "「自分は女性である」と思っているすべての方"
+    },
+    "definition_2": {
+      "title": "「エンジニア」とは",
+      "description": "IT技術を楽しんでいる、勉強を始めようと思っている、技術に対して向上心のある、技術をたしなんでいるすべての方"
+    },
+    "definition_3": {
+      "title": "「女性エンジニア」とは",
+      "description": "「自分は女性である」と思っているすべての方"
+    }    
+  },
+  "SNS": {
+    "title": "SNS"
+  },
+  "contact": {
+    "title": "お問い合わせ",
+    "description": "お気軽にご連絡ください！"    
+  }  
+}

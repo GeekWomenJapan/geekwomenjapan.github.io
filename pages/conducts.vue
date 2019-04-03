@@ -1,13 +1,4 @@
-
-<template lang="pug">
-p conducts
-</template>
 <script>
-export default {
-    
-}
+import Conducts from '@/pages/_lang/conducts.vue'
+export default Conducts
 </script>
-
-<style scoped>
-
-</style>

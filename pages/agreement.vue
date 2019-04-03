@@ -1,12 +1,4 @@
-<template lang="pug">
-p agreement
-</template>
 <script>
-export default {
-    
-}
+import Agreement from '@/pages/_lang/agreement.vue'
+export default Agreement
 </script>
-
-<style scoped>
-
-</style>

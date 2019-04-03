@@ -2,6 +2,24 @@
 "Geek Women Japan" web-site using GitHub Page.  
 (http://geekwomenjapan.github.io/)
 
+## Use Framework and Library
+
+### Nuxt.js
+https://ja.nuxtjs.org/
+
+### Pug
+https://pugjs.org
+
+### Sass
+https://sass-lang.com/
+
+### Fontawesome
+https://fontawesome.com/
+
+### Vue-i18n
+https://kazupon.github.io/vue-i18n/
+
+
 ## Build Setup
 
 ``` bash
@@ -18,5 +36,3 @@ $ npm start
 # generate static project
 $ npm run generate
 ```
-
-For detailed explanation on how things work, checkout [Nuxt.js docs](https://nuxtjs.org).
