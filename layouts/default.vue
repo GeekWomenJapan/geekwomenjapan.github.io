@@ -1,24 +1,24 @@
-<template lang="pug">
-v-app
-  AppHeader
-  nuxt
-  AppFooter  
+<template>
+  <v-app>
+    <AppHeader></AppHeader>
+    <Nuxt></Nuxt>
+    <DrawerNavigation></DrawerNavigation>
+    <AppFooter></AppFooter>
+  </v-app>
 </template>
+
 <script>
 import AppHeader from '@/components/AppHeader.vue'
 import AppFooter from '@/components/AppFooter.vue'
+import DrawerNavigation from '@/components/DrawerNavigation.vue'
 
 export default {
   components: {
     AppHeader,
-    AppFooter
+    AppFooter,
+    DrawerNavigation
   }
 }
 </script>
 <style lang="sass" scoped>
-.container
-    background-color gray
-    display flex
-    align-items center
-    justify-content center
 </style>

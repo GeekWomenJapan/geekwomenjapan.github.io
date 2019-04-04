@@ -35,12 +35,13 @@ export default {
   }
 }
 </script>
-<style scoped lang="stylus">
+<style lang="sass" scoped>
 .container
-    background-color gray
-    display flex
-    align-items center
-    justify-content center
+  background-color: gray
+  display: flex
+  align-items: center
+  justify-content: center
 .red
-    color #fff
+  color: #fff
 </style>
+
