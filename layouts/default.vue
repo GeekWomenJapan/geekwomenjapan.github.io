@@ -1,23 +1,34 @@
-<template>
-  <v-app>
-    <AppHeader></AppHeader>
-    <Nuxt></Nuxt>
-    <DrawerNavigation></DrawerNavigation>
-    <AppFooter></AppFooter>
-  </v-app>
+<template lang="pug">
+v-app
+  appHeader
+  Nuxt
+  appFooter
 </template>
 
 <script>
-import AppHeader from '@/components/AppHeader.vue'
-import AppFooter from '@/components/AppFooter.vue'
-import DrawerNavigation from '@/components/DrawerNavigation.vue'
+import appHeader from '@/components/AppHeader.vue'
+import appFooter from '@/components/AppFooter.vue'
 
 export default {
   components: {
-    AppHeader,
-    AppFooter,
-    DrawerNavigation
-  }
+    appHeader,
+    appFooter
+  },
+    data() {
+      return {
+        clipped: false,
+        drawer: true,
+        fixed: false,
+        items: [
+          { icon: 'apps', title: 'Welcome', to: '/' },
+          { icon: 'bubble_chart', title: 'Inspire', to: '/inspire' }
+        ],
+        miniVariant: false,
+        right: true,
+        rightDrawer: false,
+        title: 'Vuetify.js'
+      }
+    }
 }
 </script>
 <style lang="sass" scoped>

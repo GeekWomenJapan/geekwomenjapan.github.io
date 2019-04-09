@@ -1,5 +1,6 @@
 {
   "header": {
+    "title": "GEEK WOMEN JAPAN",
     "top": "トップ",
     "event": "イベント",
     "news": "お知らせ",
@@ -17,7 +18,7 @@
   "hero": {
     "title": "We are Geek Women Japan",
     "introduction_1": "Geek Women Japanは、女性エンジニアの集まるカンファレンスイベント運営団体です。",
-    "introduction_2": "毎年、イベントとしてアドベントカレンダー、ニューイヤーパーティー、カンファレンスを開催しています。"
+    "introduction_2": "毎年、アドベントカレンダー、ニューイヤーパーティー、カンファレンスを開催しています。"
   },
   "event": {
     "title": "イベント",
@@ -67,7 +68,7 @@
       "description": "「自分は女性である」と思っているすべての方"
     }    
   },
-  "SNS": {
+  "sns": {
     "title": "SNS"
   },
   "contact": {

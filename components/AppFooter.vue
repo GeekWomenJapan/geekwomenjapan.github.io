@@ -29,22 +29,13 @@
           py-3
           text-xs-center
           grey--text
-          xs12    
+          xs12
         ) &copy; {{ $t("footer.copyright") }}
 </template>
 <script>
 export default {
   data() {
     return {
-      links: {
-        agreement: {
-          to: '/agreement'
-        },
-        conducts: {
-          to: '/conducts'
-        },
-      }
-
     }
   }
 }
