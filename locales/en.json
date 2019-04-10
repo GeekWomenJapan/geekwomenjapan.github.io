@@ -16,7 +16,8 @@
     "copyright": "Geek Women Japan. All rights reserved."
   },
   "hero": {
-    "title": "We are Geek Women Japan",
+    "title_1": "We are ",
+    "title_2": "Geek Women Japan",
     "introduction_1": "Geek Women Japanは、女性エンジニアの集まるカンファレンスイベント運営団体です。",
     "introduction_2": "毎年、イベントとしてアドベントカレンダー、ニューイヤーパーティー、カンファレンスを開催しています。"
   },
@@ -27,6 +28,7 @@
   },
   "news": {
     "title": "NEWS",
+    "tool_tip":"Open Another Site",
     "topics1": {
       "days": "2019/04/xx",
       "title": "サイトをリニューアルしました！",
@@ -56,15 +58,15 @@
   "whatisgeekwomen": {
     "title": "What is \"GEEK WOMEN\" ",
     "definition_1": {
-      "title": "「女性」とは",
+      "title": "「WOMEN」とは",
       "description": "「自分は女性である」と思っているすべての方"
     },
     "definition_2": {
-      "title": "「エンジニア」とは",
+      "title": "「GEEK」とは",
       "description": "IT技術を楽しんでいる、勉強を始めようと思っている、技術に対して向上心のある、技術をたしなんでいるすべての方"
     },
     "definition_3": {
-      "title": "「女性エンジニア」とは",
+      "title": "「GEEK WOMEN」とは",
       "description": "「自分は女性である」と思っているすべての方"
     }
   },
@@ -72,7 +74,7 @@
     "title": "SNS"
   },
   "contact": {
-    "title": "お問い合わせ",
+    "title": "CONTACT",
     "description": "お気軽にご連絡ください！"
   }
 }

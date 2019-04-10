@@ -1,17 +1,12 @@
 <template lang="pug">
-v-content
-  v-layout(
-      column
-      justify-center
-      align-center
-      wrap
-  )
-    hero
-    event(id="event").green.lighten-5
-    news(id="news")
-    what(id="what").green.lighten-5
-    sns(id="sns")
-    contact(id="contact").green.lighten-5
+section
+  v-content
+      hero
+      event(id="event").background
+      news(id="news")
+      what(id="what").background
+      sns(id="sns")
+      contact(id="contact").background
 </template>
 
 <script>
