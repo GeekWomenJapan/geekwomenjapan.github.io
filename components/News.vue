@@ -1,7 +1,8 @@
 <template lang="pug">
-v-layout.my-3(
+v-layout(
   justify-center
   wrap
+  pa-3
 )
   v-flex.my-3(
     xs12
@@ -21,15 +22,14 @@ v-layout.my-3(
                 v-tooltip(bottom)
                   template(v-slot:activator='{ on }')
                     span(
-                      v-on='off'
+                      v-on=''
                       v-t="'news.topics1.title'"
-                      class="text-sm-left"
-                      ) 
+                    ) 
                   span(v-t="'news.tool_tip'")
           v-divider
           v-list-tile(
             href="https://techplay.jp/event/711004"
-            grey--link
+            grey--link            
           )            
             v-list-tile-content
               v-list-tile-title(v-t="'news.topics2.days'")
@@ -40,7 +40,6 @@ v-layout.my-3(
                     span(
                       v-on='on'
                       v-t="'news.topics2.title'"
-                      class="text-sm-left"
                       ) 
                   span(v-t="'news.tool_tip'")
           v-divider

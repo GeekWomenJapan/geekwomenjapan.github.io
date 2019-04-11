@@ -1,7 +1,8 @@
 <template lang="pug">
-v-layout.my-3(
+v-layout(
   justify-center
   wrap
+  pa-3
 )
   v-flex.my-3(
     xs12

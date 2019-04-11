@@ -1,12 +1,13 @@
 <template lang="pug">
-v-layout.my-5(
-  column
+v-layout(
+  justify-center
   wrap
-  align-center
+  pa-3
 )
   v-flex.my-3(
     xs12
-    sm4
+    sm6
+    md6
     )
     .text-xs-center
       h2.headline(v-t="'whatisgeekwomen.title'")

@@ -170,14 +170,14 @@
     </v-toolbar-items>
     <v-spacer></v-spacer>
     <v-toolbar-items>
-    <v-btn icon>
+    <!-- <v-btn icon>
       <NuxtLink v-if="$i18n.locale === 'ja'" :to="`/en` + $route.fullPath" active-class="none" exact>
         {{ $t('header.en') }}
       </NuxtLink>
       <NuxtLink v-else :to="$route.fullPath.replace(/^\/[^\/]+/, '')" active-class="none" exact>
         {{ $t('header.ja') }}
       </NuxtLink>
-    </v-btn>
+    </v-btn> -->
     <v-btn icon>
         <a
           class="twitter-share-button"
@@ -222,6 +222,7 @@ export default {
   },
     data () {
       return {
+        clipped: false,
         drawer: null,
         right: null
       }

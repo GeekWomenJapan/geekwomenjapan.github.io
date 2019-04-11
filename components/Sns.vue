@@ -1,14 +1,13 @@
 <template lang="pug">
-v-container.my-5(
+v-container(
   grid-list-md
   text-xs-center
   )
   v-layout(
+    justify-center
     wrap
-    fill-height
-    )
-    v-flex(
-      d-flex
+  )
+    v-flex.my-3(
       xs12
       sm6
       md6
@@ -31,16 +30,14 @@ v-container.my-5(
               data-hide-cover="false"
               data-show-facepile="false"
             )
-
-    v-flex(
-      d-flex
+    v-flex.my-3(
       xs12
       sm6
       md6
       )
       v-card
         a.twitter-timeline(
-          data-height="545"
+          data-height="525"
           href="https://twitter.com/geekwomenjapan?ref_src=twsrc%5Etfw"
           ) Tweets by geekwomenjapan
         script(

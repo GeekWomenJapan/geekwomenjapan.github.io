@@ -20,12 +20,17 @@ https://fontawesome.com/
 https://kazupon.github.io/vue-i18n/
 
 
-## Build Setup
+## Project setup
 
 ``` bash
 # install dependencies
 $ npm install
 
+```
+
+## Build Setup
+
+``` bash
 # serve with hot reload at localhost:3000
 $ npm run dev
 

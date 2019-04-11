@@ -1,16 +1,19 @@
 <template lang="pug">
-section
-  v-layout(
-    column
-    wrap
-    align-center
-  )
-    v-flex.my-3(
-      xs12
-      sm4
+v-layout(
+  justify-center
+  wrap
+  pa-3
+)
+  v-flex.my-3(
+    xs12
+    sm6
+    md6
+    ) 
+    .text-xs-center
+      h2.headline(
+        v-t="'contact.title'"
       )
-      .text-xs-center
-        h2.headline(v-t="'contact.title'")
+      .pa-3
         v-btn(
           fab
           dark
