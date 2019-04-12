@@ -1,5 +1,5 @@
 import Vue from 'vue'
-import NuxtLoading from './components/nuxt-loading.vue'
+import NuxtLoading from '@/components/atom/Loading.vue'
 
 import '../assets/style/app.styl'
 

@@ -19,6 +19,9 @@ https://fontawesome.com/
 ### Vue-i18n
 https://kazupon.github.io/vue-i18n/
 
+## vue-scrollto
+https://vue-scrollto.netlify.com/docs/
+
 
 ## Project setup
 
