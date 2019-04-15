@@ -30,6 +30,12 @@
           text-xs-center
           grey--text
           xs12
+        )
+        v-flex(
+          py-3
+          text-xs-center
+          grey--text
+          xs12
         ) &copy; {{ $t("footer.copyright") }}
 </template>
 <script>

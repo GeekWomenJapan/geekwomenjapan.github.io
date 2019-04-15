@@ -15,6 +15,11 @@
     "conducts": "行動規範",
     "copyright": "Geek Women Japan. All rights reserved."
   },
+  "conference": {
+    "title": "過去開催",
+    "2016": "2016",
+    "2017": "2017"
+  },
   "hero": {
     "title_1": "We are ",
     "title_2": "Geek Women Japan",
@@ -35,7 +40,7 @@
       "link_title": "紹介ページ"
     },
     "topics2": {
-      "days": "2018/04/xx",
+      "days": "2019/01/18",
       "title": "Geek Women Japan New Year Party 2019を開催しました",
       "link_title": "イベントレポート"
     },

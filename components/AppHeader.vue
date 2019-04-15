@@ -27,7 +27,7 @@
         <v-divider light></v-divider>
         <v-list-tile
             avatar
-            :to="$i18n.path('')">
+            :href="$i18n.path('')">
           <v-list-tile-content>
             <v-list-tile-title
               class="grey--text"
@@ -37,7 +37,7 @@
         </v-list-tile>
         <v-list-tile
             avatar
-            :to="$i18n.path('#event')">
+            :href="$i18n.path('#event')">
           <v-list-tile-content>
             <v-list-tile-title
               class="grey--text"
@@ -47,7 +47,7 @@
         </v-list-tile>
         <v-list-tile
             avatar
-            :to="$i18n.path('#news')">
+            :href="$i18n.path('#news')">
           <v-list-tile-content>
             <v-list-tile-title
               class="grey--text"
@@ -57,7 +57,7 @@
         </v-list-tile>
         <v-list-tile
             avatar
-            :to="$i18n.path('#what')">
+            :href="$i18n.path('#what')">
           <v-list-tile-content>
             <v-list-tile-title
               class="grey--text"
@@ -67,7 +67,7 @@
         </v-list-tile>
         <v-list-tile
             avatar
-            :to="$i18n.path('#sns')">
+            :href="$i18n.path('#sns')">
           <v-list-tile-content>
             <v-list-tile-title
               class="grey--text"
@@ -77,7 +77,7 @@
         </v-list-tile>
         <v-list-tile
             avatar
-            :to="$i18n.path('#contact')">
+            :href="$i18n.path('#contact')">
           <v-list-tile-content>
             <v-list-tile-title
               class="grey--text"
@@ -106,6 +106,32 @@
             </v-list-tile-title>
           </v-list-tile-content>
         </v-list-tile>
+      <v-divider></v-divider>
+        <v-subheader
+          v-t="'conference.title'">
+        </v-subheader>
+        <v-list-tile
+            avatar
+            :to="$i18n.path('conference/2016')">
+          <v-list-tile-content>
+            <v-list-tile-title
+              class="grey--text"
+              v-t="'conference.2016'"
+              > 
+            </v-list-tile-title>
+          </v-list-tile-content>
+        </v-list-tile>
+        <v-list-tile
+            avatar
+            :to="$i18n.path('conference/2017')">
+          <v-list-tile-content>
+            <v-list-tile-title
+              class="grey--text"
+              v-t="'conference.2017'"              
+              > 
+            </v-list-tile-title>
+          </v-list-tile-content>
+        </v-list-tile>
       </v-list>
     </v-navigation-drawer>
   <header>
@@ -118,12 +144,12 @@
     class="hidden-md-and-up"
     @click.stop="drawer = !drawer" />
     <v-btn icon>
-      <Nuxt-Link :to="$i18n.path('')">
+      <a :href="$i18n.path('')">
         <img
         class="logo"
         src="@/static/logo.png"
         alt ="TOP">
-      </Nuxt-Link>
+      </a>
     </v-btn>
     <v-toolbar-title
       class="grey--text"
@@ -134,50 +160,50 @@
       <v-btn
         color="grey"
         flat
-        :to="$i18n.path('')"
+        :href="$i18n.path('')"
         v-t="'header.top'">
       </v-btn>
       <v-btn
         color="grey"
         flat
-        :to="$i18n.path('#event')"
+        :href="$i18n.path('#event')"
         v-t="'header.event'">
       </v-btn>
       <v-btn
         color="grey"
         flat
-        :to="$i18n.path('#news')"
+        :href="$i18n.path('#news')"
         v-t="'header.news'">
       </v-btn>
       <v-btn
         color="grey"
         flat
-        :to="$i18n.path('#what')"
+        :href="$i18n.path('#what')"
         v-t="'header.what'">
       </v-btn>
       <v-btn
         color="grey"
         flat
-        :to="$i18n.path('#sns')"
+        :href="$i18n.path('#sns')"
         v-t="'header.sns'">
       </v-btn>
       <v-btn
         color="grey"
         flat
-        :to="$i18n.path('#contact')"
+        :href="$i18n.path('#contact')"
         v-t="'header.contact'">
       </v-btn>
     </v-toolbar-items>
     <v-spacer></v-spacer>
     <v-toolbar-items>
-    <!-- <v-btn icon>
-      <NuxtLink v-if="$i18n.locale === 'ja'" :to="`/en` + $route.fullPath" active-class="none" exact>
+    <v-btn icon>
+      <a v-if="$i18n.locale === 'ja'" :href="`/en` + $route.fullPath" active-class="none" exact>
         {{ $t('header.en') }}
-      </NuxtLink>
-      <NuxtLink v-else :to="$route.fullPath.replace(/^\/[^\/]+/, '')" active-class="none" exact>
+      </a>
+      <a v-else :href="$route.fullPath.replace(/^\/[^\/]+/, '')" active-class="none" exact>
         {{ $t('header.ja') }}
-      </NuxtLink>
-    </v-btn> -->
+      </a>
+    </v-btn>
     <v-btn icon>
         <a
           class="twitter-share-button"
@@ -234,4 +260,3 @@ export default {
   width: 30px
   height: 30px
 </style>
-

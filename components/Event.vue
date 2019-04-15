@@ -4,13 +4,18 @@ v-layout(
   wrap
   pa-3
 )
+  a(
+    class="anchor"
+    id="event"
+    )
   v-flex.my-3(
     xs12
     sm6
     md6
     )
     .text-xs-center
-      h2.headline(v-t="'event.title'")
+      h2.headline(
+        v-t="'event.title'")
   v-flex(xs12)
     v-container(grid-list-xl)
       v-layout(
@@ -41,6 +46,9 @@ export default {
 }
 </script>
 <style lang="sass" scoped>
-
+.anchor
+  display: block
+  padding-top: 70px
+  margin-top: -70px
 </style>
 

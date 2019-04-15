@@ -3,6 +3,10 @@ v-container(
   grid-list-md
   text-xs-center
   )
+  a(
+    class="anchor"
+    id="sns"
+    )
   v-layout(
     justify-center
     wrap
@@ -51,6 +55,9 @@ export default {
 }
 </script>
 <style lang="sass" scoped>
-
+.anchor
+  display: block
+  padding-top: 70px
+  margin-top: -70px
 </style>
 

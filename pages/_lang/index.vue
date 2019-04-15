@@ -1,12 +1,11 @@
 <template lang="pug">
-section
-  v-content
-      hero
-      event(id="event").background
-      news(id="news")
-      what(id="what").background
-      sns(id="sns")
-      contact(id="contact").background
+v-content
+  hero
+  event.background
+  news
+  what.background
+  sns
+  contact.background
 </template>
 
 <script>

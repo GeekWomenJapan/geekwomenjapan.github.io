@@ -42,7 +42,7 @@ export default {
   */
   plugins: [
     '@/plugins/vuetify',
-    '~/plugins/i18n.js'
+    '@/plugins/i18n.js',
   ],
   vendor: [
     'vue-i18n'
@@ -54,6 +54,8 @@ export default {
     routes: ['/',
       '/agreement',
       '/conducts',
+      '/conference/2016',
+      '/conference/2017',
       '/en',
       '/en/agreement',
       '/en/conducts'
@@ -64,7 +66,7 @@ export default {
   */
   modules: [
     // Doc: https://axios.nuxtjs.org/usage
-    '@nuxtjs/axios'
+    '@nuxtjs/axios',
   ],
   /*
   ** Axios module configuration

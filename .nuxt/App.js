@@ -5,9 +5,10 @@ import '../assets/style/app.styl'
 
 import '../node_modules/@fortawesome/fontawesome-free/css/all.css'
 
+import _5057d592 from '../layouts/conference.vue'
 import _6f6c098b from '../layouts/default.vue'
 
-const layouts = { "_default": _6f6c098b }
+const layouts = { "_conference": _5057d592,"_default": _6f6c098b }
 
 export default {
   head: {"title":"GeekWomenJapan","meta":[{"charset":"utf-8"},{"name":"viewport","content":"width=device-width, initial-scale=1"},{"hid":"description","name":"description","content":"Geek Women Japan は、女性エンジニアが集まるカンファレンスイベントの運営団体です"}],"link":[{"rel":"icon","type":"image\u002Fpng","href":"\u002Ffavicon.png"},{"rel":"stylesheet","href":"https:\u002F\u002Ffonts.googleapis.com\u002Fcss?family=Roboto:300,400,500,700|Material+Icons"}],"style":[],"script":[]},

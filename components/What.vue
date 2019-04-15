@@ -4,6 +4,10 @@ v-layout(
   wrap
   pa-3
 )
+  a(
+    class="anchor"
+    id="what"
+    )
   v-flex.my-3(
     xs12
     sm6
@@ -53,6 +57,9 @@ export default {
 }
 </script>
 <style lang="sass" scoped>
-
+.anchor
+  display: block
+  padding-top: 70px
+  margin-top: -70px
 </style>
 

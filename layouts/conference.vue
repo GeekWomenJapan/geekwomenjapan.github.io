@@ -1,12 +1,12 @@
-<template lang="pug">
-p conference2017
+<template>
+
+<nuxt/>
+
 </template>
 <script>
 export default {
-  layout: 'conference',
+  
 }
 </script>
 <style lang="sass" scoped>
-
 </style>
-

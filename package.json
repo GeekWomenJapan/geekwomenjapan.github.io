@@ -16,6 +16,7 @@
     "@fortawesome/vue-fontawesome": "^0.1.6",
     "@nuxtjs/axios": "^5.4.1",
     "cross-env": "^5.2.0",
+    "node-sass": "^4.11.0",
     "nuxt": "^2.6.1",
     "pug": "^2.0.3",
     "pug-loader": "^2.4.0",
@@ -26,7 +27,6 @@
   },
   "devDependencies": {
     "@fortawesome/fontawesome-free": "^5.8.1",
-    "node-sass": "^4.11.0",
     "nodemon": "^1.18.11",
     "sass-loader": "^7.1.0",
     "stylus": "^0.54.5",
