@@ -3,7 +3,6 @@ import pkg from './package'
 
 export default {
   mode: 'universal',
-
   /*
   ** Headers of the page
   */
@@ -51,7 +50,8 @@ export default {
     middleware: 'i18n'
   },
   generate: {
-    routes: ['/',
+    routes: [
+      '/',
       '/agreement',
       '/conducts',
       '/conference/2016',
@@ -67,6 +67,8 @@ export default {
   modules: [
     // Doc: https://axios.nuxtjs.org/usage
     '@nuxtjs/axios',
+    //Doc: https://vue-scrollto.netlify.com/
+    'vue-scrollto/nuxt',
   ],
   /*
   ** Axios module configuration

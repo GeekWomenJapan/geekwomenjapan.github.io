@@ -24,6 +24,11 @@ export default {
     what,
     sns,
     contact
+  },
+  head(){
+    return {
+      title: 'Geek Women Japan'
+    }
   }
 }
 </script>

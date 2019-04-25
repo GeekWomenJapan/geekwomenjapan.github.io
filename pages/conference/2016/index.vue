@@ -1,14 +1,14 @@
-<template>
+<template lang="html">
 <html lang="ja">
-<body>
+<div>
 <nav id="nav">
   <ul class="container">
-    <li><nuxt-link to="#what-is">WHAT IS?</nuxt-link></li>
-    <li><nuxt-link to="#about">ABOUT</nuxt-link></li>
-    <li><nuxt-link to="#timetable">TIME TABLE</nuxt-link></li>
-    <li><nuxt-link to="#speaker">SPEAKER</nuxt-link></li>
-    <li><nuxt-link to="#sponsor">SPONSOR</nuxt-link></li>
-    <li><nuxt-link to="#">|</nuxt-link></li>
+    <li><a href="#" v-scroll-to="'#what-is'">WHAT IS?</a></li>
+    <li><a href="#" v-scroll-to="'#about'">ABOUT</a></li>
+    <li><a href="#" v-scroll-to="'#timetable'">TIME TABLE</a></li>
+    <li><a href="#" v-scroll-to="'#speaker'">SPEAKER</a></li>
+    <li><a href="#" v-scroll-to="'#sponsor'">SPONSOR</a></li>
+    <li><a href="#" v-scroll-to="''">|</a></li>
     <li><nuxt-link to="/">Geek Women Japan</nuxt-link></li>
   </ul>
 </nav>
@@ -22,7 +22,7 @@
   </p>
   <a href="https://eventdots.jp/eventreport/598461" class="button button-showy">当日の様子</a>
 </header>
-<section class="what-is" id="what-is">
+<section class="what-is anchor" id="what-is">
   <h2 class="heading">WHAT IS?</h2>
   <div class="about-paragraph">
     <p class="about-text-header">
@@ -55,7 +55,7 @@
   <p class="about-text">そこで生まれたのがGeek Women Japanです。携わる言語に関わらず、新しい知識や発見をしながら女性エンジニアの輪を広めてもらいたい。それが私たちがこのイベントを開催する理由です。
   </p>
 </section>
-<section class="about" id="about">
+<section class="about anchor" id="about">
   <h2 class="heading">ABOUT</h2>
   <table class="about-table">
     <tbody>
@@ -82,7 +82,7 @@
     </tr>
     <tr>
       <th>主催</th>
-      <td><p><a :href="index">Geek Women Japan</a></p></td>
+      <td><p><nuxt-link to="/">Geek Women Japan</nuxt-link></p></td>
     </tr>
     <tr>
       <th>公式twitter</th>
@@ -105,7 +105,7 @@
     参加者用の無線wifiはありません。必要な方は各自でご用意ください。電源コンセントはあります。
   </p>
 </section>
-<section class="what-is" id="timetable">
+<section class="what-is anchor" id="timetable">
   <h2 class="heading">TIME TABLE</h2>
   <table class="timetable-table">
     <tbody>
@@ -260,7 +260,7 @@
 <section class="what-is">
   <img class="floor-map" src="@/static/conference/2016/map.png"/>
 </section>
-<section class="about" id="speaker">
+<section class="about anchor" id="speaker">
   <h2 class="heading">SPEAKER</h2>
   <br>
   <h3 class="sub-heading">keynote</h3>
@@ -299,48 +299,100 @@
   <br>
   <h3 class="sub-heading">共催コミュニティ</h3>
   <br>
-  <a href="https://javajo.doorkeeper.jp/"><img class="community-image"
-                                               src="@/static/conference/2016/community/javajo.png" alt="Java女子部"
-                                               title="Java女子部"></a>
-  <a href="http://www.gtuggirls.jp/"><img class="community-image" src="@/static/conference/2016/community/gtug.png"
-                                          alt="GTUG Girls" title="GTUG Girls"></a>
-  <a href="http://ladiesthatux.com/"><img class="community-image" src="@/static/conference/2016/community/ladiesux.png"
-                                          alt="Ladies the UX Tokyo" title="Ladies the UX Tokyo"></a>
-  <a href="https://djangogirls.org/tokyo/"><img class="community-image"
-                                                src="@/static/conference/2016/community/django.png"
-                                                alt="Django Girls Japan" title="Django Girls Japan"></a>
-  <a href="http://tokyo.pyladies.com/"><img class="community-image"
-                                            src="@/static/conference/2016/community/pyladies.png" alt="PyLadies Tokyo"
-                                            title="PyLadies Tokyo"></a>
-  <a href="https://www.facebook.com/groups/WindowsGirls/"><img class="community-image"
-                                                               src="@/static/conference/2016/community/windows.png"
-                                                               alt="Windows女子部" title="Windows女子部"></a>
+  <a href="https://javajo.doorkeeper.jp/">
+    <img
+      class="community-image"
+      src="@/static/conference/2016/community/javajo.png"
+      alt="Java女子部"
+      title="Java女子部">
+  </a>
+  <a href="http://www.gtuggirls.jp/">
+    <img
+      class="community-image"
+      src="@/static/conference/2016/community/gtug.png"
+      alt="GTUG Girls"
+      title="GTUG Girls">
+  </a>
+  <a href="http://ladiesthatux.com/">
+    <img
+      class="community-image"
+      src="@/static/conference/2016/community/ladiesux.png"
+      alt="Ladies the UX Tokyo"
+      title="Ladies the UX Tokyo">
+  </a>
+  <a href="https://djangogirls.org/tokyo/">
+    <img
+      class="community-image"
+      src="@/static/conference/2016/community/django.png"
+      alt="Django Girls Japan"
+      title="Django Girls Japan">
+  </a>
+  <a href="http://tokyo.pyladies.com/">
+    <img
+      class="community-image"
+      src="@/static/conference/2016/community/pyladies.png"
+      alt="PyLadies Tokyo"
+      title="PyLadies Tokyo">
+  </a>
+  <a href="https://www.facebook.com/groups/WindowsGirls/">
+  <img
+    class="community-image"
+    src="@/static/conference/2016/community/windows.png"
+    alt="Windows女子部"
+    title="Windows女子部">
+  </a>
   <br>
   <br>
-  <a href="http://raspberrypiforwomen.connpass.com/"><img class="community-image"
-                                                          src="@/static/conference/2016/community/raspi.png"
-                                                          alt="ラズパイ女子部" title="ラズパイ女子部"></a>
-  <a href="http://railsgirls.jp/"><img class="community-image" src="@/static/conference/2016/community/railsgirls.png"
-                                       alt="Rails Girls(Tokyo)" title="Rails Girls(Tokyo)"></a>
-  <a href="https://cloudgirl.doorkeeper.jp/"><img class="community-image"
-                                                  src="@/static/conference/2016/community/jaws.png"
-                                                  alt="JAWS-UG クラウド女子会" title="JAWS-UG クラウド女子会"></a>
-  <a href="http://jslug.jp/node/34"><img class="community-image"
-                                         src="@/static/conference/2016/community/SoftlayerBluemix.png"
-                                         alt="SoftLayer & Bluemix 女子部" title="SoftLayer & Bluemix 女子部"></a>
-  <a href="https://eventdots.jp/conference2016/community/dotsgirls"><img class="community-image"
-                                                                         src="@/static/conference/2016/community/dots.png"
-                                                                         alt="dots.女子部" title="dots.女子部"></a>
-  <a href="http://www.meetup.com/ja-JP/Women-Who-Code-Tokyo/"><img class="community-image"
-                                                                   src="@/static/conference/2016/community/wwc.png"
-                                                                   alt="Women Who Codes Japan"
-                                                                   title="Women Who Codes Japan"></a>
-  <a href="https://ladiescpp.github.io/"><img class="community-image" src="@/static/conference/2016/community/cpp.png"
-                                              alt="Ladies" title="Ladies++"></a>
+  <a href="http://raspberrypiforwomen.connpass.com/">
+  <img
+    class="community-image"
+    src="@/static/conference/2016/community/raspi.png"
+    alt="ラズパイ女子部"
+    title="ラズパイ女子部">
+  </a>
+  <a href="http://railsgirls.jp/">
+  <img
+    class="community-image"
+    src="@/static/conference/2016/community/railsgirls.png"
+    alt="Rails Girls(Tokyo)"
+    title="Rails Girls(Tokyo)"></a>
+  <a href="https://cloudgirl.doorkeeper.jp/">
+  <img
+    class="community-image"
+    src="@/static/conference/2016/community/jaws.png"
+    alt="JAWS-UG クラウド女子会"
+    title="JAWS-UG クラウド女子会">
+  </a>
+  <a href="http://jslug.jp/node/34">
+  <img
+    class="community-image"
+    src="@/static/conference/2016/community/SoftlayerBluemix.png"
+    alt="SoftLayer & Bluemix 女子部"
+    title="SoftLayer & Bluemix 女子部">
+  </a>
+  <a href="https://eventdots.jp/conference2016/community/dotsgirls">
+    <img
+      class="community-image"
+      src="@/static/conference/2016/community/dots.png"
+      alt="dots.女子部" title="dots.女子部">
+  </a>
+  <a href="http://www.meetup.com/ja-JP/Women-Who-Code-Tokyo/">
+  <img
+    class="community-image"
+    src="@/static/conference/2016/community/wwc.png"
+    alt="Women Who Codes Japan"
+    title="Women Who Codes Japan">
+  </a>
+  <a href="https://ladiescpp.github.io/">
+  <img
+    class="community-image"
+    src="@/static/conference/2016/community/cpp.png"
+    alt="Ladies"
+    title="Ladies++"></a>
   <br>
 </section>
-<section class="what-is">
-  <h2 class="heading" id="sponsor">SPONSOR</h2>
+<section class="what-is anchor" id="sponsor">
+  <h2 class="heading">SPONSOR</h2>
   <br>
   <h3 class="sub-heading">Diamond</h3>
   <br>
@@ -469,7 +521,7 @@
 </section>
 <section class="contact">
   <a href="https://twitter.com/geekwomenjapan" class="icon ">
-    <v-icon >fab fa-twitter</v-icon>
+    <v-icon>fab fa-twitter</v-icon>
     <span class="label">Twitter</span>
   </a>
   <a href="https://www.facebook.com/geekWomenJapan/" class="icon">
@@ -477,27 +529,27 @@
     <span class="label">Facebook</span>
     </a>
   <a href="mailto:geekwomen.japan@gmail.com" class="icon">
-    <v-icon >fas fa-envelope</v-icon>
+    <v-icon>fas fa-envelope</v-icon>
     <span class="label">E-mail</span>
   </a>
 </section>
 <footer class="footer">
-  © <a :href="index">Geek Women Japan</a>
+  © <nuxt-link to="/">Geek Women Japan</nuxt-link>
 </footer>
-</body>
+</div>
 </html>
 </template>
 <script>
 export default {
   layout: 'conference',
   head(){
-    return{
-      title: "Geek Women Japan 2016",
+    return {
+      title: 'Geek Women Japan 2016',
       meta: [
       { hid: 'viewport', name: 'viewport', content: 'width=device-width, initial-scale=1.0, minimum-scale=1.0' },
       { hid: 'og:title', name: 'og:title', content: 'Geek Women Japan 2016' },
       { hid: 'og:description', name: 'description', content: 'Geek Women Japan 2016は女性エンジニアのためのカンファレンスです。11/3(祝)新宿・国立オリンピック記念青少年総合センターで開催！' } ,   
-      { hid: 'og:image', name: 'og:image', content: 'http://geekwomenjapan.github.io/images/conference2016/logo.png' },
+      { hid: 'og:image', name: 'og:image', content: '@/static/conference/2016/logo.png' },
       { hid: 'og:type', name: 'og:type', content: 'website' },
       { hid: 'og:url', name: 'og:url', content: 'http://geekwomenjapan.github.io/conference2016/' },
       { hid: 'og:site_name', name: 'og:site_name', content: 'Geek Women Japan' },
@@ -510,6 +562,7 @@ export default {
     }
   }
 }
+
 </script>
 <style scoped>
 
@@ -532,6 +585,13 @@ body {
   font-family: 'Raleway', "Hiragino Kaku Gothic ProN", Meiryo, sans-serif;
 }
 
+anchor{
+  display: block;
+  padding-top: 100px;
+  margin-top: -100px;
+}
+
+
 #nav {
   background-color: inherit;
   text-align: center;
@@ -539,6 +599,7 @@ body {
   left: 0;
   top: 0;
   width: 100%;
+  height: 60px; 
   z-index: 10000;
   cursor: default;
 }
