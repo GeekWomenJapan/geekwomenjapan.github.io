@@ -4,8 +4,6 @@ import { interopDefault } from './utils'
 
 const _acc83012 = () => interopDefault(import('../pages/agreement.vue' /* webpackChunkName: "pages/agreement" */))
 const _7a536bd2 = () => interopDefault(import('../pages/conducts.vue' /* webpackChunkName: "pages/conducts" */))
-const _7c49de66 = () => interopDefault(import('../pages/conference/2016/index.vue' /* webpackChunkName: "pages/conference/2016/index" */))
-const _112e9127 = () => interopDefault(import('../pages/conference/2017/index.vue' /* webpackChunkName: "pages/conference/2017/index" */))
 const _37a08d3f = () => interopDefault(import('../pages/index.vue' /* webpackChunkName: "pages/index" */))
 const _36f00cbd = () => interopDefault(import('../pages/_lang/index.vue' /* webpackChunkName: "pages/_lang/index" */))
 const _6e037875 = () => interopDefault(import('../pages/_lang/agreement.vue' /* webpackChunkName: "pages/_lang/agreement" */))
@@ -93,14 +91,6 @@ export function createRouter() {
       path: "/conducts",
       component: _7a536bd2,
       name: "conducts"
-    }, {
-      path: "/conference/2016",
-      component: _7c49de66,
-      name: "conference-2016"
-    }, {
-      path: "/conference/2017",
-      component: _112e9127,
-      name: "conference-2017"
     }, {
       path: "/",
       component: _37a08d3f,
