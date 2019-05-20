@@ -2,14 +2,14 @@ import Vue from 'vue'
 import Router from 'vue-router'
 import { interopDefault } from './utils'
 
-const _6350704e = () => interopDefault(import('../pages/agreement.vue' /* webpackChunkName: "pages/agreement" */))
-const _c6e9f0a0 = () => interopDefault(import('../pages/conducts.vue' /* webpackChunkName: "pages/conducts" */))
-const _12dafb48 = () => interopDefault(import('../pages/conference/2016/index.vue' /* webpackChunkName: "pages/conference/2016/index" */))
-const _b080a3ee = () => interopDefault(import('../pages/conference/2017/index.vue' /* webpackChunkName: "pages/conference/2017/index" */))
-const _727bae21 = () => interopDefault(import('../pages/index.vue' /* webpackChunkName: "pages/index" */))
-const _1c337c1f = () => interopDefault(import('../pages/_lang/index.vue' /* webpackChunkName: "pages/_lang/index" */))
-const _1b5c66d7 = () => interopDefault(import('../pages/_lang/agreement.vue' /* webpackChunkName: "pages/_lang/agreement" */))
-const _3dd0de1c = () => interopDefault(import('../pages/_lang/conducts.vue' /* webpackChunkName: "pages/_lang/conducts" */))
+const _acc83012 = () => interopDefault(import('../pages/agreement.vue' /* webpackChunkName: "pages/agreement" */))
+const _7a536bd2 = () => interopDefault(import('../pages/conducts.vue' /* webpackChunkName: "pages/conducts" */))
+const _7c49de66 = () => interopDefault(import('../pages/conference/2016/index.vue' /* webpackChunkName: "pages/conference/2016/index" */))
+const _112e9127 = () => interopDefault(import('../pages/conference/2017/index.vue' /* webpackChunkName: "pages/conference/2017/index" */))
+const _37a08d3f = () => interopDefault(import('../pages/index.vue' /* webpackChunkName: "pages/index" */))
+const _36f00cbd = () => interopDefault(import('../pages/_lang/index.vue' /* webpackChunkName: "pages/_lang/index" */))
+const _6e037875 = () => interopDefault(import('../pages/_lang/agreement.vue' /* webpackChunkName: "pages/_lang/agreement" */))
+const _3e98d394 = () => interopDefault(import('../pages/_lang/conducts.vue' /* webpackChunkName: "pages/_lang/conducts" */))
 
 Vue.use(Router)
 
@@ -87,35 +87,35 @@ export function createRouter() {
 
     routes: [{
       path: "/agreement",
-      component: _6350704e,
+      component: _acc83012,
       name: "agreement"
     }, {
       path: "/conducts",
-      component: _c6e9f0a0,
+      component: _7a536bd2,
       name: "conducts"
     }, {
       path: "/conference/2016",
-      component: _12dafb48,
+      component: _7c49de66,
       name: "conference-2016"
     }, {
       path: "/conference/2017",
-      component: _b080a3ee,
+      component: _112e9127,
       name: "conference-2017"
     }, {
       path: "/",
-      component: _727bae21,
+      component: _37a08d3f,
       name: "index"
     }, {
       path: "/:lang",
-      component: _1c337c1f,
+      component: _36f00cbd,
       name: "lang"
     }, {
       path: "/:lang/agreement",
-      component: _1b5c66d7,
+      component: _6e037875,
       name: "lang-agreement"
     }, {
       path: "/:lang/conducts",
-      component: _3dd0de1c,
+      component: _3e98d394,
       name: "lang-conducts"
     }],
 
